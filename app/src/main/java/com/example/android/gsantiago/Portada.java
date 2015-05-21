@@ -354,7 +354,6 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
       protected Boolean doInBackground(Void... params) {
             Log.i("unreg","entrando en background");
             result = sendRegistrationIdToBackend();
-             //   res=true;
             return result;
         }
 
