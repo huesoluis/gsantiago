@@ -358,8 +358,7 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
 
         protected void onPostExecute(Boolean result) {
             updatemenu(1);
-//            if(result)
-           // Toast.makeText(getApplicationContext(), "Problemas con la cancelación", Toast.LENGTH_SHORT).show();
+
             Log.i("unreg", "desregistered device");
 
   //          else
