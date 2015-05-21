@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <PreferenceCategory
+        android:title="Datos personales"
+        android:key="pref_key_storage_settings">
+        <Preference
+            android:title="Codigoprofesor"
+            android:summary="Codigo profesor"
+            android:key="cprofesor"
+            android:defaultValue="0"
+
+            />
+        <Preference
+            android:title="DNI"
+            android:summary="DNI"
+            android:key="dni"
+            android:defaultValue="88888888"
+            />
+        <Preference
+            android:title="Registrado"
+            android:summary="No estas Registrado"
+            android:key="registrado"
+            android:defaultValue="No registrado"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen><!-- From: file:/E:/proyectogsantiago/gransantiago/app/src/main/res/xml/preferences.xml -->

@@ -361,8 +361,6 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
 
             Log.i("unreg", "desregistered device");
 
-  //          else
-             //   Toast.makeText(getApplicationContext(), "Registro cancelado con éxito", Toast.LENGTH_SHORT).show();
 
                 Log.i("unreg", "no desregistering device");
 
