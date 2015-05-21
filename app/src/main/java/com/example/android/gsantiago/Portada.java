@@ -174,13 +174,13 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
         editor.commit();
 
         try {
-         //   gcm.unregister();
+            gcm.unregister();
                 }catch(Exception e){}
 //cancelar registro en servidor iserver
         CancelRegistroTask cr=new CancelRegistroTask();
         cr.execute();
 
-        updatemenu(1);
+
 
         Log.i("unreg","cancelado con exito");
 
@@ -353,14 +353,14 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
 
       protected Boolean doInBackground(Void... params) {
             Log.i("unreg","entrando en background");
-            //Boolean res = sendRegistrationIdToBackend();
-                Boolean res=true;
-            return res;
+            result = sendRegistrationIdToBackend();
+             //   res=true;
+            return result;
         }
 
         protected void onPostExecute(Boolean result) {
             Log.i("unreg", "desregistered device");
-
+            updatemenu(1);
 //            if(result)
            // Toast.makeText(getApplicationContext(), "Problemas con la cancelación", Toast.LENGTH_SHORT).show();
             Log.i("unreg", "desregistered device");
