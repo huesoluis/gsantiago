@@ -31,7 +31,6 @@ public class PreferencesActivity extends PreferenceActivity
  static String np;
     public static final String PROPERTY_NP = "np";
     static  String regid;
-    AlertDialog alertDialog;
 
 
     @Override
