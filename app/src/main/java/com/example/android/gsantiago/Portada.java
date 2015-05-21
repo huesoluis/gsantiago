@@ -352,13 +352,11 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
       private boolean result;
 
       protected Boolean doInBackground(Void... params) {
-            Log.i("unreg","entrando en background");
             result = sendRegistrationIdToBackend();
             return result;
         }
 
         protected void onPostExecute(Boolean result) {
-            Log.i("unreg", "desregistered device");
             updatemenu(1);
 //            if(result)
            // Toast.makeText(getApplicationContext(), "Problemas con la cancelación", Toast.LENGTH_SHORT).show();
