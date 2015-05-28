@@ -125,7 +125,7 @@ public class Registro extends Activity {
                      RegistroTask tarea = new RegistroTask();
                      tarea.execute();
                     }else{
-                    Toast.makeText(getApplicationContext(), "ya estas registrado", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Ya estas registrado", Toast.LENGTH_LONG).show();
                              }
 
                 finish();
@@ -200,18 +200,23 @@ public class Registro extends Activity {
 
     //Tarea que realiza el registro en segundo plano
     private class RegistroTask extends AsyncTask<Void,Integer,Boolean> {
-
+        Boolean res;
         protected Boolean doInBackground(Void... params) {
             try {
             //gcm.unregister();
-         //   regid =gcm.register(SENDER_ID);
-regid="provisional";
+                //registrando en google gcm
+            regid =gcm.register(SENDER_ID);
+//regid="provisional";
                 Log.i(TAG, "ok registro");
             }catch(Exception e){            Log.i(TAG, "no regid");}
             Log.i(TAG, "enviando registro a iserver:"+regid);
-          Boolean res=sendRegistrationIdToBackend();
+
+            //registrando en el servidor iserver
+          res=sendRegistrationIdToBackend();
+            //registrando en preferencias
+            Log.i(TAG, "resultado registro en iserver:"+res);
+
             if(res) storeRegistrationId(context, regid, dni,numprofesor);
-            else             Toast.makeText(getApplicationContext(), "Registro erroneo", Toast.LENGTH_SHORT).show();
 
             return true;
         }
@@ -221,7 +226,9 @@ regid="provisional";
              //Intent intent = new Intent("com.google.android.c2dm.intent.RECEIVE",null);
 
            //sendBroadcast(intent);
-
+            if(!result)
+                         Toast.makeText(getApplicationContext(), "Error en el Registro", Toast.LENGTH_SHORT).show();
+            else
             Toast.makeText(getApplicationContext(), "Registro completado", Toast.LENGTH_SHORT).show();
 
 

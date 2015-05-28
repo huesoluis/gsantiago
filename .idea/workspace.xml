@@ -30,45 +30,15 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="cpa" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.example.android.gransantiago" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec4608cf-ee01-447a-be75-c9bcb2667741" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/RssParserDom3.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_6_5_87.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_3.xml" afterPath="" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\PreferencesActivity2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/PreferencesActivity2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\build\generated\source\r\debug\com\example\android\gsantiago\Manifest.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/android/gransantiago/Manifest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_registro.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_registro.xml" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\build\generated\source\r\debug\com\example\android\gsantiago\R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/android/gransantiago/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\Portada.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\build\generated\source\buildConfig\androidTest\debug\com\example\android\gsantiago\test\BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/example/android/gransantiago/test/BuildConfig.java" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\Registro.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Registro.java" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\AlertDialogManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/AlertDialogManager.java" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\Falta.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Falta.java" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\GcmIntentService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/GcmIntentService.java" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\CommonUtilities.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/CommonUtilities.java" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\build\generated\source\buildConfig\debug\com\example\android\gsantiago\BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/android/gransantiago/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\Preferencias.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Preferencias.java" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\ServerUtilities.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/ServerUtilities.java" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\GcmBroadcastReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/GcmBroadcastReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/listitem_falta.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/listitem_falta.xml" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\prueba.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/prueba.java" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\RssParserDom2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/RssParserDom2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\RssParserDom.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/RssParserDom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MOVED" beforePath="E:\proyectogsantiago\gransantiago\app\src\main\java\com\example\android\gsantiago\PreferencesActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/PreferencesActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/GcmIntentService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/GcmIntentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Registro.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Registro.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/ServerUtilities.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/ServerUtilities.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EffectiveNavigation.iws" />
@@ -95,9 +65,11 @@
       <file leaf-file-name="ServerUtilities.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/ServerUtilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2448">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding />
+            <state vertical-scroll-proportion="-5.428571" vertical-offset="613" max-vertical-offset="2516">
+              <caret line="45" column="27" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,31 +77,20 @@
       <file leaf-file-name="Portada.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5372" max-vertical-offset="6528">
-              <caret line="316" column="37" selection-start-line="316" selection-start-column="37" selection-end-line="316" selection-end-column="37" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1312" max-vertical-offset="6256">
+              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listitem_falta.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/listitem_falta.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="GcmIntentService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/GcmIntentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6017699" vertical-offset="0" max-vertical-offset="1717">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RssParserDom2.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/RssParserDom2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1904" max-vertical-offset="2805">
-              <caret line="112" column="38" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.38900635" vertical-offset="1924" max-vertical-offset="2465">
+              <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -140,19 +101,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="2516">
               <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portada.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/portada.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="799">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -171,8 +119,8 @@
       <file leaf-file-name="Registro.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Registro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1666" max-vertical-offset="4539">
-              <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2907" max-vertical-offset="4250">
+              <caret line="206" column="2" selection-start-line="205" selection-start-column="2" selection-end-line="206" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -1652,7 +1600,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/effectivenavigation/Falta.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/effectivenavigation/RssParserDom.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/effectivenavigation/CommonUtitlities/java.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/effectivenavigation/CommonUtitlities.java" />
@@ -1695,14 +1642,15 @@
         <option value="$PROJECT_DIR$/app/app.iml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/CommonUtilities.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Registro.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/RssParserDom2.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/RssParseDom3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/ServerUtilities.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Falta.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/RssParserDom3.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/listitem_falta.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/ServerUtilities.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Registro.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/GcmIntentService.java" />
       </list>
     </option>
   </component>
@@ -1956,6 +1904,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gransantiago" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gransantiago" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2004,7 +1982,7 @@
     <property name="recentsLimit" value="5" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="FEDCBA0987654321" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_Edited_API_21" />
     <property name="FullScreen" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-mdpi" />
@@ -2236,7 +2214,11 @@
       <created>1432210416584</created>
       <updated>1432210416584</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="c5">
+      <created>1432799591161</created>
+      <updated>1432799591161</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -2266,7 +2248,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26172465" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26172465" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.672466" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.292517" sideWeight="0.30711043" order="7" side_tool="true" content_ui="tabs" />
@@ -2274,7 +2256,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49475524" sideWeight="0.17840736" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24279211" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.7572079" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3197279" sideWeight="0.70750386" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12585033" sideWeight="0.7572079" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2289,7 +2272,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282313" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3197279" sideWeight="0.70750386" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39968154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2505,17 +2487,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/GcmIntentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2363">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Android/sdk/extras/android/m2repository/com/android/support/support-v4/21.0.3/support-v4-21.0.3-sources.jar!/android/support/v4/app/FragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8101" max-vertical-offset="14127">
           <caret line="534" column="19" selection-start-line="534" selection-start-column="19" selection-end-line="534" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2537,14 +2513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="646">
           <caret line="16" column="42" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1105">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -2648,34 +2616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Registro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="4471">
-          <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/ServerUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2244">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/RssParserDom2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2550">
           <caret line="112" column="38" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4539" max-vertical-offset="5814">
-          <caret line="316" column="37" selection-start-line="316" selection-start-column="37" selection-end-line="316" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -2707,13 +2651,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9622642" vertical-offset="15" max-vertical-offset="1105">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/listitem_falta.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6017699" vertical-offset="0" max-vertical-offset="1717">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state vertical-scroll-proportion="-6.9259257" vertical-offset="0" max-vertical-offset="1717">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/ServerUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.428571" vertical-offset="613" max-vertical-offset="2516">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Registro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2907" max-vertical-offset="4250">
+          <caret line="206" column="2" selection-start-line="205" selection-start-column="2" selection-end-line="206" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1312" max-vertical-offset="6256">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/GcmIntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38900635" vertical-offset="1924" max-vertical-offset="2465">
+          <caret line="137" column="7" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
           <folding />
         </state>
       </provider>

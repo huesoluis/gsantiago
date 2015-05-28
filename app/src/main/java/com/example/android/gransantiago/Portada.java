@@ -94,7 +94,7 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
         super.onStart();
     }
 
-//cuando volvemos a la actividad portada desde la notificación actualizamos el listado de faltas automáticamente
+//cuando volvemos a la actividad actual desde la notificación actualizamos el listado de faltas automáticamente
     @Override
     protected void onResume() {
         Intent i=getIntent();
@@ -120,7 +120,7 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
         Thread thread1 = new Thread(){
             public void run(){
                 try {
-                    cguardias.get(10000, TimeUnit.MILLISECONDS);  //set time in milisecond(in this timeout is 30 seconds
+                    cguardias.get(10000, TimeUnit.MILLISECONDS);  //Establecemos el timeout
 
                 } catch (Exception e) {
                     cguardias.cancel(true);
@@ -176,7 +176,10 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
         try {
             gcm.unregister();
                 }catch(Exception e){}
+
 //cancelar registro en servidor iserver
+        Log.i("unreg","cancelando en iserver");
+
         CancelRegistroTask cr=new CancelRegistroTask();
         cr.execute();
 
@@ -258,7 +261,7 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
         cguardias.execute(GUARDIAS_URL);
     }
 
-    //cargamos las guardias del servidor web en segundo plano
+    //cargamos las guardias del servidor web (iserver) en segundo plano
     private class Cargarguardias extends AsyncTask<String,Integer,Boolean> {
         @Override
         protected void onPreExecute() {
@@ -269,15 +272,10 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
         protected Boolean doInBackground(String... params) {
             HttpURLConnection conn = null;
             try {
-                Log.d("Conectando a...", params[0]);
-
                 RssParserDom3 saxparser =
                         new RssParserDom3(params[0]);
 
                 rfaltas = saxparser.parse();
-
-
-                Log.e("fin", "yaya termino");
 
             } catch (Exception e) {
             }
@@ -286,20 +284,18 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
 
 
         protected void onPostExecute(Boolean result) {
-            Toast.makeText(Portada.this, "Fin carga de guardias", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Portada.this, "Guardias cargadas", Toast.LENGTH_SHORT).show();
             mProgressBar.setVisibility(ProgressBar.INVISIBLE);
             lView.setVisibility(View.VISIBLE);
 
             faltas.addAll(rfaltas);
 
-            Toast.makeText(Portada.this, "I'm Done"+ faltas.size(), Toast.LENGTH_SHORT).show();
-
-            adaptador.notifyDataSetChanged();
+           adaptador.notifyDataSetChanged();
         }
     }
 
 
-
+//clase adaptador para mostrar el listado de guardias
     class AdaptadorFaltas extends ArrayAdapter<Falta> {
 
         Activity context;
@@ -314,7 +310,7 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
             View item = inflater.inflate(R.layout.listitem_falta, null);
 
             TextView tsesion = (TextView)item.findViewById(R.id.sesion);
-            tsesion.setText("sesion: "+faltas.get(position).getSesion());
+            tsesion.setText("Sesion: "+faltas.get(position).getSesion());
 
             TextView tpfalta = (TextView)item.findViewById(R.id.pfalta);
             tpfalta.setText(faltas.get(position).getProfesorFalta());
@@ -344,34 +340,35 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
         return getSharedPreferences(Registro.class.getSimpleName(),
                 Context.MODE_PRIVATE);
     }
-
+//clase asíncrona para cancelar el registro
   private class CancelRegistroTask extends AsyncTask<Void,Integer,Boolean> {
 
-      private boolean result;
+      private Boolean result=true;
 
       protected Boolean doInBackground(Void... params) {
-            result = sendRegistrationIdToBackend();
+            result = unregisterToBackend();
             return result;
         }
 
         protected void onPostExecute(Boolean result) {
-            updatemenu(1);
+            if(result) {
+                updatemenu(1);
 
-            Log.i("unreg", "desregistered device");
+                Toast.makeText(Portada.this, "Se ha dado de baja con éxito", Toast.LENGTH_SHORT).show();
+            }
+            else
+                Toast.makeText(Portada.this, "Hubo un error en la baja", Toast.LENGTH_SHORT).show();
 
-
-                Log.i("unreg", "no desregistering device");
-
-            // finish();
+              return;
         }
+
     }
-    private Boolean sendRegistrationIdToBackend() {
-        // Your implementation here.
-//        Toast.makeText(getApplicationContext(), "sending data", Toast.LENGTH_SHORT).show();
-        Log.i("unreg", "desregistering device (regId = " + regid + ")");
+    private Boolean unregisterToBackend() {
+        Log.i("unreg", "desregistering device (regId = " + regid + ")"+numprofesor+dni+regid);
+        Boolean res=ServerUtilities.register(context, numprofesor, dni, regid,"baja");
+        Log.i("desreg", "fin de sendregtobackend"+res.toString());
 
-        return ServerUtilities.register(context, numprofesor, dni, regid,"baja");
-
+        return res;
     }
 
 }

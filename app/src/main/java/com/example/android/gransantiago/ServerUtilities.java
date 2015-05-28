@@ -2,7 +2,6 @@ package com.example.android.gransantiago;
 
 import android.content.Context;
 import android.util.Log;
-
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -63,7 +62,8 @@ public final class ServerUtilities {
                 Log.i("unreg","posteando");
 
                 r=postfinal(serverUrl, params);
-                String message = context.getString(R.string.server_registered);
+                if(alta.equals("baja"))
+                    Log.i("desreg","Dentro de register, Saliendo de postfinal"+r.toString());
 
                 return r;
             } catch (IOException e) {
@@ -77,9 +77,7 @@ public final class ServerUtilities {
 
             }
         }
-        String message = context.getString(R.string.server_register_error,
-                MAX_ATTEMPTS);
-        // Co    mmonUtilities.displayMessage(context, message);
+
     return r;
 
     }
@@ -103,7 +101,8 @@ public final class ServerUtilities {
         } catch (MalformedURLException e) {
             throw new IllegalArgumentException("invalid url: " + endpoint);
         }
-        Log.i(TAG, "entrando en postfinal");
+        Log.i("desreg","Entrando en postfinal");
+        Log.i(TAG, "Enntrando en postfinal");
         Log.i("unreg","entrando en postfinal");
 
          HttpURLConnection con = (HttpURLConnection) url.openConnection();
@@ -128,10 +127,15 @@ public final class ServerUtilities {
             response.append(inputLine);
         }
         in.close();
-        Log.i("unreg","buscando respuesta");
+        con.disconnect();
+        Log.i("desreg","saliendo de postfinal");
+        Log.i("desreg", "respuesta"+response.toString());
+        Log.i("desreg","saliendo de postfinal");
 
-        Log.d("respuesta", response.toString());
-        return true;
+
+        if(response.toString().equals("1")) return true;
+        else return false;
+
     }
 
 }

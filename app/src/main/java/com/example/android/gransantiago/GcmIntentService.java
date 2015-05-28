@@ -32,12 +32,12 @@ public class GcmIntentService extends IntentService {
     public GcmIntentService() {
         super("GcmIntentService");
     }
-    public static final String TAG = "GCM Demo";
+    public static final String TAG = "gsa";
 
     @Override
     protected void onHandleIntent(Intent intent) {
         Log.i(TAG, "Handling... " + (1) + "/5 @ " + SystemClock.elapsedRealtime());
-
+        String notificacion;
         Bundle extras = intent.getExtras();
         GoogleCloudMessaging gcm = GoogleCloudMessaging.getInstance(this);
         // The getMessageType() intent parameter must be the intent you received
@@ -51,9 +51,9 @@ public class GcmIntentService extends IntentService {
              * not interested in, or that you don't recognize.
              */
             if (GoogleCloudMessaging.MESSAGE_TYPE_SEND_ERROR.equals(messageType)) {
-                sendNotification("Send error: " + extras.toString());
+                sendNotification("Error de envio: " + extras.toString());
             } else if (GoogleCloudMessaging.MESSAGE_TYPE_DELETED.equals(messageType)) {
-                sendNotification("Deleted messages on server: " + extras.toString());
+                sendNotification("Se han eliminado mensajes del servidor: " + extras.toString());
                 // If it's a regular GCM message, do some work.
             } else if (GoogleCloudMessaging.MESSAGE_TYPE_MESSAGE.equals(messageType)) {
                 // This loop represents the service doing some work.
@@ -65,11 +65,17 @@ public class GcmIntentService extends IntentService {
                     } catch (InterruptedException e) {
                     }
                 }
-                Log.i(TAG, "Completed work @ " + SystemClock.elapsedRealtime());
-                // Post notification of received message.
-                sendNotification("Tienes Guardia:\n Cubres a:" +extras.toString());
+                Log.i(TAG, "Trarea terminada" + SystemClock.elapsedRealtime());
+                //Diferenciamos entre avisos (nuevas guardias) y notificaciones personales
+                if(extras.getString("sesion").isEmpty())
+                    notificacion="Tienes Guardia\n Sesion:"+extras.getString("sesion","")+
+                        "\nProfesor falta:"+extras.getString("pfalta","nadie")+"\nAsignatura:"+extras.getString("asignatura","ninguna");
+                else
+                    notificacion="Tienes una notificacion:"+extras.getString("aviso");
 
-//                sendNotification("Tienes Guardia:\n Cubres a:" +extras.getString("Cubres")+"\nEn Aula:"+extras.getString("Aula"));
+                // Post notification of received message.
+                sendNotification(notificacion);
+
                 Log.i(TAG, "Received ko: " + extras.toString() + extras.getString("Cubres") + extras.getString("Aula"));
             }
         }
@@ -90,7 +96,7 @@ public class GcmIntentService extends IntentService {
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(this)
                         .setSmallIcon(R.drawable.sh)
-                        .setContentTitle("GCM Notification")
+                        .setContentTitle("Aviso")
                         .setStyle(new NotificationCompat.BigTextStyle()
                                 .bigText(msg))
                         .setContentText(msg).setAutoCancel(true);
