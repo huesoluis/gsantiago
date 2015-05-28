@@ -1,5 +1,5 @@
 
-package com.example.android.gsantiago;
+package com.example.android.gransantiago;
 
 /**
  * Created by multimedia on 17/03/2015.

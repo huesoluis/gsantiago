@@ -1,4 +1,4 @@
-package com.example.android.gsantiago;
+package com.example.android.gransantiago;
 
 import android.content.Context;
 import android.util.Log;
@@ -7,27 +7,38 @@ import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Map.Entry;
+
 import java.util.Random;
 
-import static com.example.android.gsantiago.CommonUtilities.SERVER_URL;
-import static com.example.android.gsantiago.CommonUtilities.TAG;
 
-//    import com.google.android.gcm.GCMRegistrar;
 
 
 public final class ServerUtilities {
     private static final int MAX_ATTEMPTS = 5;
-    public static final String URL = "10.2.100.2";
+    public static final String IP = "10.2.100.7";
     private static final int BACKOFF_MILLI_SECONDS = 2000;
     private static final Random random = new Random();
+
+    // url de registro
+    static final String REGISTER_URL = "http://"+IP+"/gcm_server_php/register.php";
+    //url para cargar guardias
+    static final String GUARDIAS_URL = "http://www.iessantiagohernandez.com/XmlGuardia/guardias.xml";
+
+    // Google project id
+    static final String SENDER_ID = "";
+
+    /**
+     * Tag used on log messages.
+     */
+    static final String TAG = "GCMD";
+
+    static final String DISPLAY_MESSAGE_ACTION =
+            "com.example.android.gransantiago.DISPLAY_MESSAGE";
+
+    static final String EXTRA_MESSAGE = "message";
 
     /**
      * Register this account/device pair within the server.
@@ -39,7 +50,7 @@ public final class ServerUtilities {
         Log.i("unreg","entrando en register");
 
 
-        String serverUrl = SERVER_URL;
+        String serverUrl = REGISTER_URL;
         String params = "regid="+regid+"&dni="+dni+"&numprofesor="+numprofesor+"&alta="+alta;
 
         long backoff = BACKOFF_MILLI_SECONDS + random.nextInt(1000);

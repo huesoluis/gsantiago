@@ -1,17 +1,13 @@
-package com.example.android.gsantiago;
+package com.example.android.gransantiago;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,12 +18,11 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
-import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static com.example.android.gsantiago.CommonUtilities.SERVER_URL;
+import static com.example.android.gransantiago.ServerUtilities.REGISTER_URL;
 
-//import static com.example.android.gsantiago.AlertDialogManager;
+//import static com.example.android.gransantiago.AlertDialogManager;
 
 
 public class Registro extends Activity {
@@ -94,7 +89,7 @@ public class Registro extends Activity {
         }
         */
         // Check if GCM configuration is set
-        if (SERVER_URL == null || SENDER_ID == null || SERVER_URL.length() == 0
+        if (REGISTER_URL == null || SENDER_ID == null || REGISTER_URL.length() == 0
                 || SENDER_ID.length() == 0) {
             // GCM sernder id / server url is missing
             //alert.showAlertDialog(RegisterActivity.this, "Configuration Error!",

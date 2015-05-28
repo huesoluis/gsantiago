@@ -1,4 +1,4 @@
-package com.example.android.gsantiago;
+package com.example.android.gransantiago;
 
 import android.app.AlertDialog;
 import android.content.SharedPreferences;
@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.preference.EditTextPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
-import android.preference.PreferenceFragment;
 import android.util.Log;
 
 public class PreferencesActivity2 extends PreferenceActivity

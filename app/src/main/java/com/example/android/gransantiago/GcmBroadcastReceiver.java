@@ -1,4 +1,4 @@
-package com.example.android.gsantiago;
+package com.example.android.gransantiago;
 
 import android.app.Activity;
 import android.content.ComponentName;

@@ -1,4 +1,4 @@
-package com.example.android.gsantiago;
+package com.example.android.gransantiago;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;

@@ -1,4 +1,4 @@
-package com.example.android.gsantiago;
+package com.example.android.gransantiago;
 
 import android.app.Activity;
 import android.content.Context;
@@ -29,7 +29,7 @@ import com.google.android.gms.gcm.GoogleCloudMessaging;
 import java.net.HttpURLConnection;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
-import static com.example.android.gsantiago.ServerUtilities.URL;
+import static com.example.android.gransantiago.ServerUtilities.GUARDIAS_URL;
 
 public class Portada extends ActionBarActivity {
 
@@ -116,11 +116,11 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
     protected void cargafaltas() {
         final Context mContext=null;
         final     Cargarguardias cguardias = new Cargarguardias();
-        cguardias.execute("http://" + URL + "/faltas3.xml");
+        cguardias.execute(GUARDIAS_URL);
         Thread thread1 = new Thread(){
             public void run(){
                 try {
-                    cguardias.get(3000, TimeUnit.MILLISECONDS);  //set time in milisecond(in this timeout is 30 seconds
+                    cguardias.get(10000, TimeUnit.MILLISECONDS);  //set time in milisecond(in this timeout is 30 seconds
 
                 } catch (Exception e) {
                     cguardias.cancel(true);
@@ -255,7 +255,7 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
 
     private void actualizar() {
         Cargarguardias cguardias = new Cargarguardias();
-        cguardias.execute("http://" + URL + "/faltas3.xml");
+        cguardias.execute(GUARDIAS_URL);
     }
 
     //cargamos las guardias del servidor web en segundo plano
@@ -271,8 +271,8 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
             try {
                 Log.d("Conectando a...", params[0]);
 
-                RssParserDom2 saxparser =
-                        new RssParserDom2(params[0]);
+                RssParserDom3 saxparser =
+                        new RssParserDom3(params[0]);
 
                 rfaltas = saxparser.parse();
 
@@ -286,19 +286,14 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
 
 
         protected void onPostExecute(Boolean result) {
-            Toast.makeText(Portada.this, "I'm Done"+ faltas.size(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(Portada.this, "Fin carga de guardias", Toast.LENGTH_SHORT).show();
             mProgressBar.setVisibility(ProgressBar.INVISIBLE);
             lView.setVisibility(View.VISIBLE);
-            //for(int m=0;m<rfaltas.size();m++)
-              //  faltas.add(rfaltas.get(m));
+
             faltas.addAll(rfaltas);
-           // Log.d("fleidas4", Integer.toString(faltas.size())+faltas.get(m).getProfesorCubre());
-          //  faltas.add(new Falta("f4", "c4","a4"));
+
             Toast.makeText(Portada.this, "I'm Done"+ faltas.size(), Toast.LENGTH_SHORT).show();
-            //Tratamos la lista de noticias
-            //Por ejemplo: escribimos los t�tulos en pantalla
-           // txtResultado.setText("");
-            //faltas.add(new Falta("f4", "c4","a4"));
+
             adaptador.notifyDataSetChanged();
         }
     }
@@ -317,6 +312,9 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
         public View getView(int position, View convertView, ViewGroup parent) {
             LayoutInflater inflater = context.getLayoutInflater();
             View item = inflater.inflate(R.layout.listitem_falta, null);
+
+            TextView tsesion = (TextView)item.findViewById(R.id.sesion);
+            tsesion.setText("sesion: "+faltas.get(position).getSesion());
 
             TextView tpfalta = (TextView)item.findViewById(R.id.pfalta);
             tpfalta.setText(faltas.get(position).getProfesorFalta());

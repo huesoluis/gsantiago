@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.android.gsantiago;
+package com.example.android.gransantiago;
 
 public final class R {
     public static final class anim {
@@ -2209,33 +2209,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.example.android.gsantiago:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.example.android.gsantiago:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.example.android.gsantiago:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.android.gsantiago:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.android.gsantiago:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.example.android.gsantiago:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.example.android.gsantiago:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.android.gsantiago:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.example.android.gsantiago:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.example.android.gsantiago:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.example.android.gsantiago:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.example.android.gsantiago:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.android.gsantiago:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.android.gsantiago:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.example.android.gsantiago:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.example.android.gsantiago:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.android.gsantiago:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.example.android.gsantiago:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.example.android.gsantiago:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.example.android.gsantiago:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.example.android.gsantiago:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.example.android.gsantiago:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.example.android.gsantiago:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.example.android.gsantiago:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.android.gsantiago:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.example.android.gsantiago:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.example.android.gsantiago:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.example.android.gransantiago:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.example.android.gransantiago:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.example.android.gransantiago:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.android.gransantiago:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.android.gransantiago:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.example.android.gransantiago:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.example.android.gransantiago:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.android.gransantiago:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.example.android.gransantiago:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.example.android.gransantiago:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.example.android.gransantiago:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.example.android.gransantiago:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.android.gransantiago:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.android.gransantiago:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.example.android.gransantiago:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.example.android.gransantiago:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.android.gransantiago:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.example.android.gransantiago:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.example.android.gransantiago:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.example.android.gransantiago:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.example.android.gransantiago:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.example.android.gransantiago:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.example.android.gransantiago:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.example.android.gransantiago:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.android.gransantiago:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.example.android.gransantiago:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.example.android.gransantiago:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2275,17 +2275,17 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f010087
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#background}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:background
+          @attr name com.example.android.gransantiago:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2293,11 +2293,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.android.gsantiago:backgroundSplit
+          @attr name com.example.android.gransantiago:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2305,11 +2305,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.android.gsantiago:backgroundStacked
+          @attr name com.example.android.gransantiago:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2321,11 +2321,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:contentInsetEnd
+          @attr name com.example.android.gransantiago:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2337,11 +2337,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:contentInsetLeft
+          @attr name com.example.android.gransantiago:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2353,11 +2353,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:contentInsetRight
+          @attr name com.example.android.gransantiago:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2369,21 +2369,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:contentInsetStart
+          @attr name com.example.android.gransantiago:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:customNavigationLayout
+          @attr name com.example.android.gransantiago:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2401,21 +2401,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:displayOptions
+          @attr name com.example.android.gransantiago:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:divider
+          @attr name com.example.android.gransantiago:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2427,11 +2427,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:elevation
+          @attr name com.example.android.gransantiago:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#height}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2443,11 +2443,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:height
+          @attr name com.example.android.gransantiago:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2457,51 +2457,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:hideOnContentScroll
+          @attr name com.example.android.gransantiago:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:homeAsUpIndicator
+          @attr name com.example.android.gransantiago:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:homeLayout
+          @attr name com.example.android.gransantiago:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:icon
+          @attr name com.example.android.gransantiago:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:indeterminateProgressStyle
+          @attr name com.example.android.gransantiago:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2513,21 +2513,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:itemPadding
+          @attr name com.example.android.gransantiago:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:logo
+          @attr name com.example.android.gransantiago:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2541,21 +2541,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:navigationMode
+          @attr name com.example.android.gransantiago:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:popupTheme
+          @attr name com.example.android.gransantiago:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2567,21 +2567,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:progressBarPadding
+          @attr name com.example.android.gransantiago:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:progressBarStyle
+          @attr name com.example.android.gransantiago:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2591,21 +2591,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:subtitle
+          @attr name com.example.android.gransantiago:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:subtitleTextStyle
+          @attr name com.example.android.gransantiago:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2615,17 +2615,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:title
+          @attr name com.example.android.gransantiago:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:titleTextStyle
+          @attr name com.example.android.gransantiago:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -2677,12 +2677,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.example.android.gsantiago:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.example.android.gsantiago:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.example.android.gsantiago:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.example.android.gsantiago:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.android.gsantiago:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.example.android.gsantiago:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.example.android.gransantiago:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.example.android.gransantiago:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.example.android.gransantiago:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.example.android.gransantiago:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.android.gransantiago:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.example.android.gransantiago:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2696,17 +2696,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#background}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:background
+          @attr name com.example.android.gransantiago:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2714,21 +2714,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.android.gsantiago:backgroundSplit
+          @attr name com.example.android.gransantiago:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:closeItemLayout
+          @attr name com.example.android.gransantiago:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#height}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2740,27 +2740,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:height
+          @attr name com.example.android.gransantiago:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:subtitleTextStyle
+          @attr name com.example.android.gransantiago:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:titleTextStyle
+          @attr name com.example.android.gransantiago:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2769,8 +2769,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.android.gsantiago:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.android.gsantiago:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.android.gransantiago:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.android.gransantiago:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2779,17 +2779,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:expandActivityOverflowButtonDrawable
+          @attr name com.example.android.gransantiago:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2799,7 +2799,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:initialActivityCount
+          @attr name com.example.android.gransantiago:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AdsAttrs.
@@ -2808,9 +2808,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize com.example.android.gsantiago:adSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes com.example.android.gsantiago:adSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId com.example.android.gsantiago:adUnitId}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize com.example.android.gransantiago:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes com.example.android.gransantiago:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId com.example.android.gransantiago:adUnitId}</code></td><td></td></tr>
            </table>
            @see #AdsAttrs_adSize
            @see #AdsAttrs_adSizes
@@ -2820,7 +2820,7 @@ containing a value of this type.
             0x7f01001f, 0x7f010020, 0x7f010021
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#adSize}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#adSize}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -2830,11 +2830,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:adSize
+          @attr name com.example.android.gransantiago:adSize
         */
         public static final int AdsAttrs_adSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#adSizes}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#adSizes}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -2844,11 +2844,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:adSizes
+          @attr name com.example.android.gransantiago:adSizes
         */
         public static final int AdsAttrs_adSizes = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#adUnitId}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#adUnitId}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -2858,7 +2858,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:adUnitId
+          @attr name com.example.android.gransantiago:adUnitId
         */
         public static final int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a CompatTextView.
@@ -2867,7 +2867,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps com.example.android.gsantiago:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompatTextView_textAllCaps com.example.android.gransantiago:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #CompatTextView_textAllCaps
          */
@@ -2875,14 +2875,14 @@ containing a value of this type.
             0x7f010022
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#textAllCaps}
           attribute's value can be found in the {@link #CompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.example.android.gsantiago:textAllCaps
+          @attr name com.example.android.gransantiago:textAllCaps
         */
         public static final int CompatTextView_textAllCaps = 0;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -2891,14 +2891,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize com.example.android.gsantiago:barSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.example.android.gsantiago:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.android.gsantiago:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.android.gsantiago:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.example.android.gsantiago:middleBarArrowSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.android.gsantiago:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.android.gsantiago:thickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.example.android.gsantiago:topBottomBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize com.example.android.gransantiago:barSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.example.android.gransantiago:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.android.gransantiago:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.android.gransantiago:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.example.android.gransantiago:middleBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.android.gransantiago:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.android.gransantiago:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.example.android.gransantiago:topBottomBarArrowSize}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -2914,7 +2914,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#barSize}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2926,11 +2926,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:barSize
+          @attr name com.example.android.gransantiago:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#color}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2941,11 +2941,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:color
+          @attr name com.example.android.gransantiago:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2957,11 +2957,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:drawableSize
+          @attr name com.example.android.gransantiago:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2973,11 +2973,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:gapBetweenBars
+          @attr name com.example.android.gransantiago:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2989,11 +2989,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:middleBarArrowSize
+          @attr name com.example.android.gransantiago:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3003,11 +3003,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:spinBars
+          @attr name com.example.android.gransantiago:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3019,11 +3019,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:thickness
+          @attr name com.example.android.gransantiago:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -3035,7 +3035,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:topBottomBarArrowSize
+          @attr name com.example.android.gransantiago:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -3049,10 +3049,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.example.android.gsantiago:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.android.gsantiago:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.android.gsantiago:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.android.gsantiago:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.example.android.gransantiago:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.android.gransantiago:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.android.gransantiago:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.android.gransantiago:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -3100,17 +3100,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:divider
+          @attr name com.example.android.gransantiago:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3122,11 +3122,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:dividerPadding
+          @attr name com.example.android.gransantiago:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3136,11 +3136,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:measureWithLargestChild
+          @attr name com.example.android.gransantiago:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3155,7 +3155,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:showDividers
+          @attr name com.example.android.gransantiago:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -3234,9 +3234,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop com.example.android.gsantiago:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.example.android.gsantiago:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.example.android.gsantiago:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop com.example.android.gransantiago:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.example.android.gransantiago:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.example.android.gransantiago:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
@@ -3246,7 +3246,7 @@ containing a value of this type.
             0x7f01002e, 0x7f01002f, 0x7f010030
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -3256,11 +3256,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:circleCrop
+          @attr name com.example.android.gransantiago:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -3270,11 +3270,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:imageAspectRatio
+          @attr name com.example.android.gransantiago:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -3288,7 +3288,7 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:imageAspectRatioAdjust
+          @attr name com.example.android.gransantiago:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MapAttrs.
@@ -3297,22 +3297,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing com.example.android.gsantiago:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.example.android.gsantiago:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.example.android.gsantiago:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt com.example.android.gsantiago:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom com.example.android.gsantiago:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_liteMode com.example.android.gsantiago:liteMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType com.example.android.gsantiago:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass com.example.android.gsantiago:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.example.android.gsantiago:uiMapToolbar}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.example.android.gsantiago:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.example.android.gsantiago:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.example.android.gsantiago:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls com.example.android.gsantiago:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.example.android.gsantiago:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.example.android.gsantiago:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.example.android.gsantiago:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.example.android.gransantiago:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.example.android.gransantiago:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.example.android.gransantiago:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.example.android.gransantiago:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.example.android.gransantiago:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode com.example.android.gransantiago:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.example.android.gransantiago:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.example.android.gransantiago:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.example.android.gransantiago:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.example.android.gransantiago:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.example.android.gransantiago:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.example.android.gransantiago:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.example.android.gransantiago:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.example.android.gransantiago:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.example.android.gransantiago:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.example.android.gransantiago:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_cameraBearing
            @see #MapAttrs_cameraTargetLat
@@ -3338,7 +3338,7 @@ containing a value of this type.
             0x7f01003d, 0x7f01003e, 0x7f01003f, 0x7f010040
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3348,11 +3348,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:cameraBearing
+          @attr name com.example.android.gransantiago:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3362,11 +3362,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:cameraTargetLat
+          @attr name com.example.android.gransantiago:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3376,11 +3376,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:cameraTargetLng
+          @attr name com.example.android.gransantiago:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3390,11 +3390,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:cameraTilt
+          @attr name com.example.android.gransantiago:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3404,11 +3404,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:cameraZoom
+          @attr name com.example.android.gransantiago:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#liteMode}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#liteMode}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3418,11 +3418,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:liteMode
+          @attr name com.example.android.gransantiago:liteMode
         */
         public static final int MapAttrs_liteMode = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#mapType}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3438,11 +3438,11 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:mapType
+          @attr name com.example.android.gransantiago:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3452,11 +3452,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:uiCompass
+          @attr name com.example.android.gransantiago:uiCompass
         */
         public static final int MapAttrs_uiCompass = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#uiMapToolbar}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#uiMapToolbar}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3466,11 +3466,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:uiMapToolbar
+          @attr name com.example.android.gransantiago:uiMapToolbar
         */
         public static final int MapAttrs_uiMapToolbar = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3480,11 +3480,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:uiRotateGestures
+          @attr name com.example.android.gransantiago:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3494,11 +3494,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:uiScrollGestures
+          @attr name com.example.android.gransantiago:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3508,11 +3508,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:uiTiltGestures
+          @attr name com.example.android.gransantiago:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3522,11 +3522,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:uiZoomControls
+          @attr name com.example.android.gransantiago:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3536,11 +3536,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:uiZoomGestures
+          @attr name com.example.android.gransantiago:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3550,11 +3550,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:useViewLifecycle
+          @attr name com.example.android.gransantiago:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3564,7 +3564,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:zOrderOnTop
+          @attr name com.example.android.gransantiago:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 14;
         /** Attributes that can be used with a MenuGroup.
@@ -3633,9 +3633,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.example.android.gsantiago:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.example.android.gsantiago:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.example.android.gsantiago:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.example.android.gransantiago:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.example.android.gransantiago:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.example.android.gransantiago:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -3649,7 +3649,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.example.android.gsantiago:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.example.android.gransantiago:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -3677,17 +3677,17 @@ containing a value of this type.
             0x7f010044
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionLayout
+          @attr name com.example.android.gransantiago:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3697,11 +3697,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:actionProviderClass
+          @attr name com.example.android.gransantiago:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3711,7 +3711,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:actionViewClass
+          @attr name com.example.android.gransantiago:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -3793,7 +3793,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3809,7 +3809,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:showAsAction
+          @attr name com.example.android.gransantiago:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -3825,7 +3825,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.android.gsantiago:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.android.gransantiago:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -3883,7 +3883,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -3893,7 +3893,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:preserveIconSpacing
+          @attr name com.example.android.gransantiago:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PopupWindow.
@@ -3903,7 +3903,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.android.gsantiago:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.android.gransantiago:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -3918,7 +3918,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -3928,7 +3928,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:overlapAnchor
+          @attr name com.example.android.gransantiago:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -3937,7 +3937,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.android.gsantiago:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.android.gransantiago:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -3945,7 +3945,7 @@ containing a value of this type.
             0x7f010047
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -3955,7 +3955,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:state_above_anchor
+          @attr name com.example.android.gransantiago:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a SearchView.
@@ -3968,17 +3968,17 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.example.android.gsantiago:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.example.android.gsantiago:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.example.android.gsantiago:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.android.gsantiago:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.example.android.gsantiago:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.example.android.gsantiago:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.example.android.gsantiago:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.example.android.gsantiago:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.example.android.gsantiago:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.android.gsantiago:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.example.android.gsantiago:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.example.android.gransantiago:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.example.android.gransantiago:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.example.android.gransantiago:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.android.gransantiago:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.example.android.gransantiago:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.example.android.gransantiago:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.example.android.gransantiago:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.example.android.gransantiago:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.example.android.gransantiago:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.android.gransantiago:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.example.android.gransantiago:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -4027,37 +4027,37 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:closeIcon
+          @attr name com.example.android.gransantiago:closeIcon
         */
         public static final int SearchView_closeIcon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:commitIcon
+          @attr name com.example.android.gransantiago:commitIcon
         */
         public static final int SearchView_commitIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:goIcon
+          @attr name com.example.android.gransantiago:goIcon
         */
         public static final int SearchView_goIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4067,31 +4067,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:iconifiedByDefault
+          @attr name com.example.android.gransantiago:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:layout
+          @attr name com.example.android.gransantiago:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:queryBackground
+          @attr name com.example.android.gransantiago:queryBackground
         */
         public static final int SearchView_queryBackground = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -4101,47 +4101,47 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:queryHint
+          @attr name com.example.android.gransantiago:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:searchIcon
+          @attr name com.example.android.gransantiago:searchIcon
         */
         public static final int SearchView_searchIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:submitBackground
+          @attr name com.example.android.gransantiago:submitBackground
         */
         public static final int SearchView_submitBackground = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:suggestionRowLayout
+          @attr name com.example.android.gransantiago:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:voiceIcon
+          @attr name com.example.android.gransantiago:voiceIcon
         */
         public static final int SearchView_voiceIcon = 10;
         /** Attributes that can be used with a Spinner.
@@ -4157,10 +4157,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.example.android.gsantiago:disableChildrenWhenDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView com.example.android.gsantiago:popupPromptView}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_prompt com.example.android.gsantiago:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode com.example.android.gsantiago:spinnerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.example.android.gransantiago:disableChildrenWhenDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView com.example.android.gransantiago:popupPromptView}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_prompt com.example.android.gransantiago:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode com.example.android.gransantiago:spinnerMode}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -4222,7 +4222,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4232,31 +4232,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:disableChildrenWhenDisabled
+          @attr name com.example.android.gransantiago:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:popupPromptView
+          @attr name com.example.android.gransantiago:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#prompt}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:prompt
+          @attr name com.example.android.gransantiago:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4269,7 +4269,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dialog</code></td><td>0</td><td></td></tr>
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:spinnerMode
+          @attr name com.example.android.gransantiago:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -4281,13 +4281,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.example.android.gsantiago:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.example.android.gsantiago:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.android.gsantiago:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.example.android.gsantiago:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.android.gsantiago:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.android.gsantiago:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.example.android.gsantiago:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.example.android.gransantiago:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.example.android.gransantiago:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.android.gransantiago:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.example.android.gransantiago:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.android.gransantiago:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.android.gransantiago:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.example.android.gransantiago:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -4324,7 +4324,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4334,11 +4334,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:showText
+          @attr name com.example.android.gransantiago:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4348,11 +4348,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:splitTrack
+          @attr name com.example.android.gransantiago:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4364,11 +4364,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:switchMinWidth
+          @attr name com.example.android.gransantiago:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4380,21 +4380,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:switchPadding
+          @attr name com.example.android.gransantiago:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:switchTextAppearance
+          @attr name com.example.android.gransantiago:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4406,17 +4406,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:thumbTextPadding
+          @attr name com.example.android.gransantiago:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#track}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:track
+          @attr name com.example.android.gransantiago:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a Theme.
@@ -4425,89 +4425,89 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.example.android.gsantiago:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.example.android.gsantiago:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.example.android.gsantiago:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.example.android.gsantiago:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.example.android.gsantiago:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.example.android.gsantiago:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.example.android.gsantiago:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.example.android.gsantiago:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.example.android.gsantiago:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.example.android.gsantiago:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.example.android.gsantiago:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.example.android.gsantiago:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.example.android.gsantiago:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.example.android.gsantiago:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.example.android.gsantiago:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.example.android.gsantiago:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.example.android.gsantiago:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.example.android.gsantiago:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.example.android.gsantiago:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.example.android.gsantiago:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.example.android.gsantiago:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.example.android.gsantiago:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.example.android.gsantiago:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.example.android.gsantiago:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.example.android.gsantiago:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.example.android.gsantiago:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.example.android.gsantiago:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.example.android.gsantiago:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.example.android.gsantiago:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.example.android.gsantiago:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.example.android.gsantiago:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider com.example.android.gransantiago:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground com.example.android.gransantiago:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme com.example.android.gransantiago:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize com.example.android.gransantiago:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle com.example.android.gransantiago:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle com.example.android.gransantiago:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.example.android.gransantiago:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle com.example.android.gransantiago:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.example.android.gransantiago:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme com.example.android.gransantiago:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.example.android.gransantiago:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle com.example.android.gransantiago:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.example.android.gransantiago:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.example.android.gransantiago:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor com.example.android.gransantiago:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground com.example.android.gransantiago:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.example.android.gransantiago:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.example.android.gransantiago:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.example.android.gransantiago:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable com.example.android.gransantiago:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable com.example.android.gransantiago:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable com.example.android.gransantiago:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.example.android.gransantiago:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.example.android.gransantiago:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable com.example.android.gransantiago:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground com.example.android.gransantiago:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle com.example.android.gransantiago:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.example.android.gransantiago:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.example.android.gransantiago:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.example.android.gransantiago:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle com.example.android.gransantiago:activityChooserViewStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.example.android.gsantiago:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.example.android.gsantiago:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.example.android.gsantiago:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.example.android.gsantiago:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.example.android.gsantiago:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.example.android.gsantiago:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.example.android.gsantiago:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.example.android.gsantiago:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.example.android.gsantiago:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.example.android.gsantiago:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.example.android.gsantiago:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.example.android.gsantiago:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.example.android.gsantiago:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.example.android.gsantiago:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.example.android.gsantiago:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.example.android.gsantiago:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.example.android.gsantiago:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.example.android.gsantiago:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.example.android.gsantiago:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.example.android.gsantiago:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.example.android.gsantiago:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.example.android.gsantiago:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.example.android.gsantiago:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.example.android.gsantiago:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.example.android.gsantiago:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.example.android.gsantiago:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.example.android.gsantiago:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.example.android.gsantiago:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.example.android.gsantiago:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.example.android.gsantiago:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.example.android.gsantiago:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.example.android.gsantiago:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.example.android.gsantiago:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.example.android.gsantiago:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.example.android.gsantiago:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.example.android.gsantiago:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.example.android.gsantiago:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.example.android.gsantiago:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.example.android.gsantiago:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.example.android.gsantiago:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.example.android.gsantiago:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.example.android.gsantiago:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.example.android.gsantiago:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.example.android.gsantiago:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.example.android.gsantiago:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.example.android.gsantiago:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.example.android.gsantiago:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.example.android.gsantiago:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.example.android.gsantiago:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.example.android.gsantiago:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.example.android.gsantiago:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.example.android.gransantiago:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle com.example.android.gransantiago:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent com.example.android.gransantiago:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal com.example.android.gransantiago:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated com.example.android.gransantiago:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight com.example.android.gransantiago:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal com.example.android.gransantiago:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary com.example.android.gransantiago:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark com.example.android.gransantiago:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.example.android.gransantiago:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal com.example.android.gransantiago:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical com.example.android.gransantiago:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle com.example.android.gransantiago:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.example.android.gransantiago:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground com.example.android.gransantiago:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor com.example.android.gransantiago:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator com.example.android.gransantiago:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.example.android.gransantiago:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle com.example.android.gransantiago:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight com.example.android.gransantiago:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.example.android.gransantiago:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.example.android.gransantiago:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.example.android.gransantiago:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.example.android.gransantiago:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground com.example.android.gransantiago:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.example.android.gransantiago:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.example.android.gransantiago:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.example.android.gransantiago:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle com.example.android.gransantiago:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle com.example.android.gransantiago:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground com.example.android.gransantiago:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.example.android.gransantiago:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.example.android.gransantiago:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle com.example.android.gransantiago:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle com.example.android.gransantiago:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.example.android.gransantiago:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem com.example.android.gransantiago:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.example.android.gransantiago:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.example.android.gransantiago:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.example.android.gransantiago:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.example.android.gransantiago:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl com.example.android.gransantiago:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.example.android.gransantiago:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle com.example.android.gransantiago:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar com.example.android.gransantiago:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay com.example.android.gransantiago:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay com.example.android.gransantiago:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.example.android.gransantiago:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.example.android.gransantiago:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.example.android.gransantiago:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.example.android.gransantiago:windowFixedWidthMinor}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -4617,37 +4617,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100ad, 0x7f0100ae, 0x7f0100af
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionBarDivider
+          @attr name com.example.android.gransantiago:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionBarItemBackground
+          @attr name com.example.android.gransantiago:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionBarPopupTheme
+          @attr name com.example.android.gransantiago:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4667,111 +4667,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:actionBarSize
+          @attr name com.example.android.gransantiago:actionBarSize
         */
         public static final int Theme_actionBarSize = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionBarSplitStyle
+          @attr name com.example.android.gransantiago:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionBarStyle
+          @attr name com.example.android.gransantiago:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionBarTabBarStyle
+          @attr name com.example.android.gransantiago:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionBarTabStyle
+          @attr name com.example.android.gransantiago:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionBarTabTextStyle
+          @attr name com.example.android.gransantiago:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionBarTheme
+          @attr name com.example.android.gransantiago:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionBarWidgetTheme
+          @attr name com.example.android.gransantiago:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionButtonStyle
+          @attr name com.example.android.gransantiago:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 43;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionDropDownStyle
+          @attr name com.example.android.gransantiago:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 38;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionMenuTextAppearance
+          @attr name com.example.android.gransantiago:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4779,167 +4779,167 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.android.gsantiago:actionMenuTextColor
+          @attr name com.example.android.gransantiago:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 22;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModeBackground
+          @attr name com.example.android.gransantiago:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 25;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModeCloseButtonStyle
+          @attr name com.example.android.gransantiago:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 24;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModeCloseDrawable
+          @attr name com.example.android.gransantiago:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 27;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModeCopyDrawable
+          @attr name com.example.android.gransantiago:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 29;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModeCutDrawable
+          @attr name com.example.android.gransantiago:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 28;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModeFindDrawable
+          @attr name com.example.android.gransantiago:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModePasteDrawable
+          @attr name com.example.android.gransantiago:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 30;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModePopupWindowStyle
+          @attr name com.example.android.gransantiago:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 35;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModeSelectAllDrawable
+          @attr name com.example.android.gransantiago:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModeShareDrawable
+          @attr name com.example.android.gransantiago:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModeSplitBackground
+          @attr name com.example.android.gransantiago:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 26;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModeStyle
+          @attr name com.example.android.gransantiago:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 23;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionModeWebSearchDrawable
+          @attr name com.example.android.gransantiago:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionOverflowButtonStyle
+          @attr name com.example.android.gransantiago:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:actionOverflowMenuStyle
+          @attr name com.example.android.gransantiago:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:activityChooserViewStyle
+          @attr name com.example.android.gransantiago:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 50;
         /**
@@ -4949,27 +4949,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:buttonBarButtonStyle
+          @attr name com.example.android.gransantiago:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:buttonBarStyle
+          @attr name com.example.android.gransantiago:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 44;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4980,11 +4980,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:colorAccent
+          @attr name com.example.android.gransantiago:colorAccent
         */
         public static final int Theme_colorAccent = 77;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4995,11 +4995,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:colorButtonNormal
+          @attr name com.example.android.gransantiago:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 81;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5010,11 +5010,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:colorControlActivated
+          @attr name com.example.android.gransantiago:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 79;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5025,11 +5025,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:colorControlHighlight
+          @attr name com.example.android.gransantiago:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 80;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5040,11 +5040,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:colorControlNormal
+          @attr name com.example.android.gransantiago:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 78;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5055,11 +5055,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:colorPrimary
+          @attr name com.example.android.gransantiago:colorPrimary
         */
         public static final int Theme_colorPrimary = 75;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5070,11 +5070,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:colorPrimaryDark
+          @attr name com.example.android.gransantiago:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 76;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5085,41 +5085,41 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:colorSwitchThumbNormal
+          @attr name com.example.android.gransantiago:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 82;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:dividerHorizontal
+          @attr name com.example.android.gransantiago:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 49;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:dividerVertical
+          @attr name com.example.android.gransantiago:dividerVertical
         */
         public static final int Theme_dividerVertical = 48;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:dropDownListViewStyle
+          @attr name com.example.android.gransantiago:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 67;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5131,21 +5131,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:dropdownListPreferredItemHeight
+          @attr name com.example.android.gransantiago:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 39;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:editTextBackground
+          @attr name com.example.android.gransantiago:editTextBackground
         */
         public static final int Theme_editTextBackground = 56;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5153,41 +5153,41 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.android.gsantiago:editTextColor
+          @attr name com.example.android.gransantiago:editTextColor
         */
         public static final int Theme_editTextColor = 55;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:homeAsUpIndicator
+          @attr name com.example.android.gransantiago:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 42;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:listChoiceBackgroundIndicator
+          @attr name com.example.android.gransantiago:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 74;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:listPopupWindowStyle
+          @attr name com.example.android.gransantiago:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5199,11 +5199,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:listPreferredItemHeight
+          @attr name com.example.android.gransantiago:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 62;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5215,11 +5215,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:listPreferredItemHeightLarge
+          @attr name com.example.android.gransantiago:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 64;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5231,11 +5231,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:listPreferredItemHeightSmall
+          @attr name com.example.android.gransantiago:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 63;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5247,11 +5247,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:listPreferredItemPaddingLeft
+          @attr name com.example.android.gransantiago:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 65;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5263,31 +5263,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:listPreferredItemPaddingRight
+          @attr name com.example.android.gransantiago:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 66;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:panelBackground
+          @attr name com.example.android.gransantiago:panelBackground
         */
         public static final int Theme_panelBackground = 71;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:panelMenuListTheme
+          @attr name com.example.android.gransantiago:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 73;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5299,151 +5299,151 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:panelMenuListWidth
+          @attr name com.example.android.gransantiago:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 72;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:popupMenuStyle
+          @attr name com.example.android.gransantiago:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 53;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:popupWindowStyle
+          @attr name com.example.android.gransantiago:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:searchViewStyle
+          @attr name com.example.android.gransantiago:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:selectableItemBackground
+          @attr name com.example.android.gransantiago:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 46;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:selectableItemBackgroundBorderless
+          @attr name com.example.android.gransantiago:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 47;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:spinnerDropDownItemStyle
+          @attr name com.example.android.gransantiago:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 41;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:spinnerStyle
+          @attr name com.example.android.gransantiago:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 40;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:switchStyle
+          @attr name com.example.android.gransantiago:switchStyle
         */
         public static final int Theme_switchStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:textAppearanceLargePopupMenu
+          @attr name com.example.android.gransantiago:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 36;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:textAppearanceListItem
+          @attr name com.example.android.gransantiago:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 69;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:textAppearanceListItemSmall
+          @attr name com.example.android.gransantiago:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:textAppearanceSearchResultSubtitle
+          @attr name com.example.android.gransantiago:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:textAppearanceSearchResultTitle
+          @attr name com.example.android.gransantiago:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:textAppearanceSmallPopupMenu
+          @attr name com.example.android.gransantiago:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 37;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5451,31 +5451,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.android.gsantiago:textColorSearchUrl
+          @attr name com.example.android.gransantiago:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 60;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:toolbarNavigationButtonStyle
+          @attr name com.example.android.gransantiago:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:toolbarStyle
+          @attr name com.example.android.gransantiago:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5485,11 +5485,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:windowActionBar
+          @attr name com.example.android.gransantiago:windowActionBar
         */
         public static final int Theme_windowActionBar = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5499,11 +5499,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:windowActionBarOverlay
+          @attr name com.example.android.gransantiago:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5513,11 +5513,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:windowActionModeOverlay
+          @attr name com.example.android.gransantiago:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5532,11 +5532,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:windowFixedHeightMajor
+          @attr name com.example.android.gransantiago:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5551,11 +5551,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:windowFixedHeightMinor
+          @attr name com.example.android.gransantiago:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5570,11 +5570,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:windowFixedWidthMajor
+          @attr name com.example.android.gransantiago:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5589,7 +5589,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:windowFixedWidthMinor
+          @attr name com.example.android.gransantiago:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 6;
         /** Attributes that can be used with a Toolbar.
@@ -5600,26 +5600,26 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.android.gsantiago:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.example.android.gsantiago:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.android.gsantiago:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.android.gsantiago:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.example.android.gsantiago:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.example.android.gsantiago:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.android.gsantiago:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.android.gsantiago:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.example.android.gsantiago:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.example.android.gsantiago:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.example.android.gsantiago:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.android.gsantiago:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_theme com.example.android.gsantiago:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.example.android.gsantiago:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.android.gsantiago:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.android.gsantiago:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.example.android.gsantiago:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.example.android.gsantiago:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.example.android.gsantiago:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.android.gsantiago:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.android.gransantiago:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.example.android.gransantiago:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.android.gransantiago:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.android.gransantiago:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.example.android.gransantiago:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.example.android.gransantiago:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.android.gransantiago:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.android.gransantiago:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.example.android.gransantiago:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.example.android.gransantiago:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.example.android.gransantiago:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.android.gransantiago:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_theme com.example.android.gransantiago:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.example.android.gransantiago:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.android.gransantiago:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.android.gransantiago:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.example.android.gransantiago:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.example.android.gransantiago:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.example.android.gransantiago:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.android.gransantiago:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -5665,7 +5665,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5675,21 +5675,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:collapseContentDescription
+          @attr name com.example.android.gransantiago:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:collapseIcon
+          @attr name com.example.android.gransantiago:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5701,11 +5701,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:contentInsetEnd
+          @attr name com.example.android.gransantiago:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5717,11 +5717,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:contentInsetLeft
+          @attr name com.example.android.gransantiago:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5733,11 +5733,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:contentInsetRight
+          @attr name com.example.android.gransantiago:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5749,11 +5749,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:contentInsetStart
+          @attr name com.example.android.gransantiago:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5765,11 +5765,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:maxButtonHeight
+          @attr name com.example.android.gransantiago:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5779,31 +5779,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:navigationContentDescription
+          @attr name com.example.android.gransantiago:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:navigationIcon
+          @attr name com.example.android.gransantiago:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:popupTheme
+          @attr name com.example.android.gransantiago:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5813,31 +5813,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:subtitle
+          @attr name com.example.android.gransantiago:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:subtitleTextAppearance
+          @attr name com.example.android.gransantiago:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#theme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:theme
+          @attr name com.example.android.gransantiago:theme
         */
         public static final int Toolbar_theme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5847,11 +5847,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:title
+          @attr name com.example.android.gransantiago:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5863,11 +5863,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:titleMarginBottom
+          @attr name com.example.android.gransantiago:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5879,11 +5879,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:titleMarginEnd
+          @attr name com.example.android.gransantiago:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5895,11 +5895,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:titleMarginStart
+          @attr name com.example.android.gransantiago:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5911,11 +5911,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:titleMarginTop
+          @attr name com.example.android.gransantiago:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5927,17 +5927,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:titleMargins
+          @attr name com.example.android.gransantiago:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:titleTextAppearance
+          @attr name com.example.android.gransantiago:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -5947,8 +5947,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.example.android.gsantiago:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.example.android.gsantiago:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.example.android.gransantiago:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.example.android.gransantiago:paddingStart}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_paddingEnd
@@ -5964,7 +5964,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int View_android_focusable = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5976,11 +5976,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:paddingEnd
+          @attr name com.example.android.gransantiago:paddingEnd
         */
         public static final int View_paddingEnd = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5992,7 +5992,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:paddingStart
+          @attr name com.example.android.gransantiago:paddingStart
         */
         public static final int View_paddingStart = 1;
         /** Attributes that can be used with a ViewStubCompat.
@@ -6036,10 +6036,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.example.android.gsantiago:appTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_environment com.example.android.gsantiago:environment}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.example.android.gsantiago:fragmentMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.example.android.gsantiago:fragmentStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.example.android.gransantiago:appTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment com.example.android.gransantiago:environment}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.example.android.gransantiago:fragmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.example.android.gransantiago:fragmentStyle}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentOptions_appTheme
            @see #WalletFragmentOptions_environment
@@ -6050,7 +6050,7 @@ containing a value of this type.
             0x7f0100bf, 0x7f0100c0, 0x7f0100c1, 0x7f0100c2
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#appTheme}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#appTheme}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -6063,11 +6063,11 @@ containing a value of this type.
 <tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
 <tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:appTheme
+          @attr name com.example.android.gransantiago:appTheme
         */
         public static final int WalletFragmentOptions_appTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#environment}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#environment}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -6081,11 +6081,11 @@ containing a value of this type.
 <tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
 <tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:environment
+          @attr name com.example.android.gransantiago:environment
         */
         public static final int WalletFragmentOptions_environment = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#fragmentMode}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#fragmentMode}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -6098,17 +6098,17 @@ containing a value of this type.
 <tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
 <tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:fragmentMode
+          @attr name com.example.android.gransantiago:fragmentMode
         */
         public static final int WalletFragmentOptions_fragmentMode = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#fragmentStyle}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#fragmentStyle}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:fragmentStyle
+          @attr name com.example.android.gransantiago:fragmentStyle
         */
         public static final int WalletFragmentOptions_fragmentStyle = 2;
         /** Attributes that can be used with a WalletFragmentStyle.
@@ -6117,17 +6117,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.example.android.gsantiago:buyButtonAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.example.android.gsantiago:buyButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.example.android.gsantiago:buyButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.example.android.gsantiago:buyButtonWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.example.android.gsantiago:maskedWalletDetailsBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.example.android.gsantiago:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.example.android.gsantiago:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.example.android.gsantiago:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.example.android.gsantiago:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.example.android.gsantiago:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.example.android.gsantiago:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.example.android.gransantiago:buyButtonAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.example.android.gransantiago:buyButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.example.android.gransantiago:buyButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.example.android.gransantiago:buyButtonWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.example.android.gransantiago:maskedWalletDetailsBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.example.android.gransantiago:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.example.android.gransantiago:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.example.android.gransantiago:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.example.android.gransantiago:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.example.android.gransantiago:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.example.android.gransantiago:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentStyle_buyButtonAppearance
            @see #WalletFragmentStyle_buyButtonHeight
@@ -6147,7 +6147,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100cb, 0x7f0100cc, 0x7f0100cd
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#buyButtonAppearance}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#buyButtonAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6161,11 +6161,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:buyButtonAppearance
+          @attr name com.example.android.gransantiago:buyButtonAppearance
         */
         public static final int WalletFragmentStyle_buyButtonAppearance = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#buyButtonHeight}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#buyButtonHeight}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6186,11 +6186,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:buyButtonHeight
+          @attr name com.example.android.gransantiago:buyButtonHeight
         */
         public static final int WalletFragmentStyle_buyButtonHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#buyButtonText}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#buyButtonText}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6205,11 +6205,11 @@ containing a value of this type.
 <tr><td><code>book_now</code></td><td>3</td><td></td></tr>
 <tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:buyButtonText
+          @attr name com.example.android.gransantiago:buyButtonText
         */
         public static final int WalletFragmentStyle_buyButtonText = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#buyButtonWidth}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#buyButtonWidth}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6230,11 +6230,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:buyButtonWidth
+          @attr name com.example.android.gransantiago:buyButtonWidth
         */
         public static final int WalletFragmentStyle_buyButtonWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#maskedWalletDetailsBackground}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#maskedWalletDetailsBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6242,11 +6242,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.android.gsantiago:maskedWalletDetailsBackground
+          @attr name com.example.android.gransantiago:maskedWalletDetailsBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#maskedWalletDetailsButtonBackground}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#maskedWalletDetailsButtonBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6254,31 +6254,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.android.gsantiago:maskedWalletDetailsButtonBackground
+          @attr name com.example.android.gransantiago:maskedWalletDetailsButtonBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#maskedWalletDetailsButtonTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#maskedWalletDetailsButtonTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:maskedWalletDetailsButtonTextAppearance
+          @attr name com.example.android.gransantiago:maskedWalletDetailsButtonTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#maskedWalletDetailsHeaderTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#maskedWalletDetailsHeaderTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:maskedWalletDetailsHeaderTextAppearance
+          @attr name com.example.android.gransantiago:maskedWalletDetailsHeaderTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#maskedWalletDetailsLogoImageType}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#maskedWalletDetailsLogoImageType}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6291,11 +6291,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>classic</code></td><td>1</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.example.android.gsantiago:maskedWalletDetailsLogoImageType
+          @attr name com.example.android.gransantiago:maskedWalletDetailsLogoImageType
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#maskedWalletDetailsLogoTextColor}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#maskedWalletDetailsLogoTextColor}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6306,17 +6306,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.gsantiago:maskedWalletDetailsLogoTextColor
+          @attr name com.example.android.gransantiago:maskedWalletDetailsLogoTextColor
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.android.gsantiago.R.attr#maskedWalletDetailsTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.android.gransantiago.R.attr#maskedWalletDetailsTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.android.gsantiago:maskedWalletDetailsTextAppearance
+          @attr name com.example.android.gransantiago:maskedWalletDetailsTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
     };

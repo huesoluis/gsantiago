@@ -1,8 +1,6 @@
-package com.example.android.gsantiago;
+package com.example.android.gransantiago;
 
 import android.util.Log;
-
-import com.example.android.gsantiago.Falta;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -19,42 +17,6 @@ import java.util.ArrayList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-
-import android.util.Log;
-
-import com.example.android.gsantiago.Falta;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
-
-import android.util.Log;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-
 public class RssParserDom2
 {
     private URL rssUrl;
@@ -63,10 +25,10 @@ public class RssParserDom2
     {
         try
         {
-            Log.d("Construyendo en el pa", "e");
+            Log.d("cpa", "cargando url"+url);
 
             this.rssUrl = new URL(url);
-            Log.d("Construido parser", "e");
+            Log.d("cpa", "construido parser");
         }
         catch (MalformedURLException e)
         {
@@ -78,7 +40,7 @@ public class RssParserDom2
     {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         ArrayList<Falta> faltas = new ArrayList<Falta>();
-        Log.d("Entrandoparser", "ep");
+        Log.d("ep", "Entrandoparser");
 
         try {
             Log.d("ss", "ep");
@@ -105,14 +67,16 @@ public class RssParserDom2
                 // NodeList nlfaltas = root.getElementsByTagName("falta");
                 //Node nfalta = nlfaltas.item(i);
                 NodeList datosFaltas = sesiones.item(j).getChildNodes();
-                Log.d("dsesion1", String.valueOf(j));
 
                 //de cada sesion extraemos las faltas q contiene
-                for (int k = 1; k < datosFaltas.getLength(); k = k + 2) {
+                for (int k = 1; k < datosFaltas.getLength(); k = k++) {
                     NodeList nlfaltas = datosFaltas.item(k).getChildNodes();
+                    Log.d("epc", datosFaltas.item(k).getNodeName()+datosFaltas.getLength());
+
                     //Falta f = new Falta();
-//de cada falta la procesamos
+                //de cada falta la procesamos
                     Falta f = new Falta();
+
                     for (int p = 0; p < nlfaltas.getLength(); p = p + 1) {
 
                         Log.d("Faltas1", nlfaltas.item(p).getNodeName());
@@ -126,6 +90,7 @@ public class RssParserDom2
                             Log.d("atributos", nn.item(0).getNodeName()+nn.item(0).getNodeValue());
                                 f.setProfesorFalta(nn.item(0).getNodeValue());
                             //Log.d("pfalta1", nlprof.item(0).getFirstChild().getNodeValue());
+  /*
                             for (int pf = 0; pf < nlprof.getLength(); pf = pf + 1) {
                                 Log.d("pfalta2", nlprof.item(pf).getNodeName());
 
@@ -140,8 +105,9 @@ public class RssParserDom2
                                 }
 
                             }
-
+*/
                         }
+
                         Log.d("adding1", f.getProfesorCubre());
 
                         faltas.add(f);

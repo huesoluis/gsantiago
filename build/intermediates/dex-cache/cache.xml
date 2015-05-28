@@ -2,20 +2,6 @@
 <items version="2" >
 
     <item
-        jar="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\pre-dexed\debug\classes-a4830607b46cef5f91c5ceffe7daa8d12491745d.jar" />
-    </item>
-    <item
-        jar="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\pre-dexed\debug\classes-a4830607b46cef5f91c5ceffe7daa8d12491745d.jar" />
-    </item>
-    <item
         jar="E:\proyectogsantiago\gransantiago\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -37,27 +23,6 @@
         <dex dex="E:\proyectogsantiago\gransantiago\app\build\intermediates\pre-dexed\debug\classes-450e5371e645c766a7bf2abff468ba04df6872cc.jar" />
     </item>
     <item
-        jar="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-58c59b56f7e90ef981da7504e88b6b34073967af.jar" />
-    </item>
-    <item
-        jar="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-58c59b56f7e90ef981da7504e88b6b34073967af.jar" />
-    </item>
-    <item
-        jar="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\pre-dexed\debug\classes-c4981cb19873b78691d3a2b56455ffc608cb7472.jar" />
-    </item>
-    <item
         jar="E:\proyectogsantiago\gransantiago\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -67,23 +32,9 @@
     <item
         jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
-        revision="22.0.0"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-99c1ccd53a7fa88549c32ac544faa9e96cd17557.jar" />
-    </item>
-    <item
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
-        jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-99c1ccd53a7fa88549c32ac544faa9e96cd17557.jar" />
-    </item>
-    <item
-        jar="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="E:\proyectogsantiago\materialgsantiago\FloatingActionButtonBasic\EffectiveNavigation\app\build\intermediates\pre-dexed\debug\classes-87ff9316804d75c9b14074a972c37e8d8fdcb506.jar" />
+        <dex dex="E:\proyectogsantiago\gransantiago\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-99c1ccd53a7fa88549c32ac544faa9e96cd17557.jar" />
     </item>
 
 </items>
