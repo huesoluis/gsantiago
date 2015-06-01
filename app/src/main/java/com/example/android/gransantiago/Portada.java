@@ -257,6 +257,8 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
 
     private void actualizar() {
        // adaptador.clear();
+        faltas.clear();
+        adaptador.notifyDataSetChanged();
         Cargarguardias cguardias = new Cargarguardias();
         cguardias.execute(GUARDIAS_URL);
     }

@@ -35,6 +35,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec4608cf-ee01-447a-be75-c9bcb2667741" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -84,11 +86,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Portada.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Portada.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5258427" vertical-offset="3506" max-vertical-offset="5763">
-              <caret line="262" column="0" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.535714" vertical-offset="3439" max-vertical-offset="5797">
+              <caret line="260" column="41" selection-start-line="260" selection-start-column="41" selection-end-line="260" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.34979424" vertical-offset="833" max-vertical-offset="1530">
+              <caret line="59" column="118" selection-start-line="59" selection-start-column="118" selection-end-line="59" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -1632,7 +1644,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_registro.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menuportada.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/settings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gsantiago/Preferencias.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gsantiago/dd/java.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gsantiago/RssParserDom2/java.java" />
@@ -1659,6 +1670,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Registro.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/GcmIntentService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -2254,7 +2266,11 @@
       <created>1433154545635</created>
       <updated>1433154545635</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="c7">
+      <created>1433154684911</created>
+      <updated>1433154684911</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -2332,7 +2348,8 @@
     <MESSAGE value="c4" />
     <MESSAGE value="c5" />
     <MESSAGE value="c6" />
-    <option name="LAST_COMMIT_MESSAGE" value="c6" />
+    <MESSAGE value="c7" />
+    <option name="LAST_COMMIT_MESSAGE" value="c7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2548,14 +2565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
-          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="388">
@@ -2730,8 +2739,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/gransantiago/Portada.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5258427" vertical-offset="3506" max-vertical-offset="5763">
-          <caret line="262" column="0" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.535714" vertical-offset="3439" max-vertical-offset="5797">
+          <caret line="260" column="41" selection-start-line="260" selection-start-column="41" selection-end-line="260" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34979424" vertical-offset="833" max-vertical-offset="1530">
+          <caret line="59" column="118" selection-start-line="59" selection-start-column="118" selection-end-line="59" selection-end-column="118" />
           <folding />
         </state>
       </provider>
