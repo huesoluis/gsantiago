@@ -178,7 +178,6 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
                 }catch(Exception e){}
 
 //cancelar registro en servidor iserver
-        Log.i("unreg","cancelando en iserver");
 
         CancelRegistroTask cr=new CancelRegistroTask();
         cr.execute();
@@ -257,6 +256,7 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
     }
 
     private void actualizar() {
+        adaptador.clear();
         Cargarguardias cguardias = new Cargarguardias();
         cguardias.execute(GUARDIAS_URL);
     }
