@@ -56,27 +56,22 @@ public class GcmIntentService extends IntentService {
                 sendNotification("Se han eliminado mensajes del servidor: " + extras.toString());
                 // If it's a regular GCM message, do some work.
             } else if (GoogleCloudMessaging.MESSAGE_TYPE_MESSAGE.equals(messageType)) {
-                // This loop represents the service doing some work.
-                for (int i = 0; i < 5; i++) {
-                    Log.i(TAG, "Working... " + (i + 1)
-                            + "/5 @ " + SystemClock.elapsedRealtime());
-                    try {
-                        Thread.sleep(5000);
-                    } catch (InterruptedException e) {
-                    }
-                }
+
                 Log.i(TAG, "Trarea terminada" + SystemClock.elapsedRealtime());
                 //Diferenciamos entre avisos (nuevas guardias) y notificaciones personales
-                if(extras.getString("sesion").isEmpty())
-                    notificacion="Tienes Guardia\n Sesion:"+extras.getString("sesion","")+
-                        "\nProfesor falta:"+extras.getString("pfalta","nadie")+"\nAsignatura:"+extras.getString("asignatura","ninguna");
-                else
-                    notificacion="Tienes una notificacion:"+extras.getString("aviso");
 
+                if(extras.getString("sesion","").isEmpty())
+                    notificacion="Tienes una notificacion:\t"+extras.getString("aviso");
+                else
+                    notificacion="Tienes Guardia\n Sesion:\t"+extras.getString("sesion","")+
+                            "\nProfesor falta:\t"+extras.getString("pfalta","nadie")+"\nAsignatura:\t"+extras.getString("asignatura","ninguna");
+
+
+      //          notificacion="notificacion recibida";
                 // Post notification of received message.
                 sendNotification(notificacion);
 
-                Log.i(TAG, "Received ko: " + extras.toString() + extras.getString("Cubres") + extras.getString("Aula"));
+                Log.i(TAG, "Recibido: " + extras.toString() + extras.getString("Cubres") + extras.getString("Aula"));
             }
         }
         // Release the wake lock provided by the WakefulBroadcastReceiver.

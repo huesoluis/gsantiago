@@ -101,8 +101,8 @@ public class Registro extends Activity {
         txtDni = (EditText) findViewById(R.id.txtDni);
         txtNp = (EditText) findViewById(R.id.txtNp);
         btnRegister = (Button) findViewById(R.id.btnRegister);
-        txtDni.setText("88888888");
-        txtNp.setText("123");
+        txtDni.setText("73243855");
+        txtNp.setText("1330");
 /*
          * Click event on Register button
          * */

@@ -17,12 +17,14 @@ import java.util.Random;
 
 public final class ServerUtilities {
     private static final int MAX_ATTEMPTS = 5;
-    public static final String IP = "10.2.100.7";
+    public static final String IP = "10.2.100.4";
     private static final int BACKOFF_MILLI_SECONDS = 2000;
     private static final Random random = new Random();
 
     // url de registro
-    static final String REGISTER_URL = "http://"+IP+"/gcm_server_php/register.php";
+    //static final String REGISTER_URL = "http://"+IP+"/gransantiago/register.php";
+
+    static final String REGISTER_URL = "http://www.iessantiagohernandez.com/gransantiago/register.php";
     //url para cargar guardias
     static final String GUARDIAS_URL = "http://www.iessantiagohernandez.com/XmlGuardia/guardias.xml";
 
