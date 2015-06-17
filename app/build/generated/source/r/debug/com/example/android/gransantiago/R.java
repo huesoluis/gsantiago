@@ -1845,21 +1845,23 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030014;
         public static final int abc_search_view=0x7f030015;
         public static final int abc_simple_dropdown_hint=0x7f030016;
-        public static final int activity_collection_demo=0x7f030017;
-        public static final int activity_main=0x7f030018;
-        public static final int activity_registro=0x7f030019;
-        public static final int customnotification=0x7f03001a;
-        public static final int fragment_collection_object=0x7f03001b;
-        public static final int listitem_falta=0x7f03001c;
-        public static final int notificationview=0x7f03001d;
-        public static final int portada=0x7f03001e;
-        public static final int preferences=0x7f03001f;
-        public static final int settings=0x7f030020;
-        public static final int support_simple_spinner_dropdown_item=0x7f030021;
+        public static final int activity_aviso=0x7f030017;
+        public static final int activity_collection_demo=0x7f030018;
+        public static final int activity_main=0x7f030019;
+        public static final int activity_registro=0x7f03001a;
+        public static final int customnotification=0x7f03001b;
+        public static final int fragment_collection_object=0x7f03001c;
+        public static final int listitem_falta=0x7f03001d;
+        public static final int notificationview=0x7f03001e;
+        public static final int portada=0x7f03001f;
+        public static final int preferences=0x7f030020;
+        public static final int settings=0x7f030021;
+        public static final int support_simple_spinner_dropdown_item=0x7f030022;
     }
     public static final class menu {
-        public static final int menu_registro=0x7f0e0000;
-        public static final int menuportada=0x7f0e0001;
+        public static final int menu_aviso=0x7f0e0000;
+        public static final int menu_registro=0x7f0e0001;
+        public static final int menuportada=0x7f0e0002;
     }
     public static final class raw {
         public static final int gtm_analytics=0x7f060000;
@@ -1950,9 +1952,10 @@ containing a value of this type.
         public static final int server_unregistered=0x7f0c0052;
         public static final int store_picture_message=0x7f0c0053;
         public static final int store_picture_title=0x7f0c0054;
-        public static final int title_activity_main=0x7f0c0055;
-        public static final int title_activity_registro=0x7f0c0056;
-        public static final int wallet_buy_button_place_holder=0x7f0c0057;
+        public static final int title_activity_aviso=0x7f0c0055;
+        public static final int title_activity_main=0x7f0c0056;
+        public static final int title_activity_registro=0x7f0c0057;
+        public static final int wallet_buy_button_place_holder=0x7f0c0058;
     }
     public static final class style {
         public static final int Base_TextAppearance_AppCompat=0x7f0d0000;

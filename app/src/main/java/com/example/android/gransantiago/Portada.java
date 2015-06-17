@@ -27,9 +27,16 @@ import android.widget.Toast;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
 import java.net.HttpURLConnection;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 import static com.example.android.gransantiago.ServerUtilities.GUARDIAS_URL;
+import static java.util.Calendar.HOUR;
 
 public class Portada extends ActionBarActivity {
 
@@ -301,18 +308,57 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
     class AdaptadorFaltas extends ArrayAdapter<Falta> {
 
         Activity context;
+        Date horaactual;
+    Calendar calactual,c1,c2;
 
-        AdaptadorFaltas(Activity context) {
+    AdaptadorFaltas(Activity context) {
             super(context, R.layout.listitem_falta, faltas);
             this.context = context;
-        }
+            this.horaactual= new Date();
+            this.calactual=Calendar.getInstance();
+            this.c1=Calendar.getInstance();
+            this.c2=Calendar.getInstance();
+    }
 
         public View getView(int position, View convertView, ViewGroup parent) {
+            String franjahora1="00:00-00:00";
+            String franjahora2="00:00-00:00";
+            franjahora1=getfranjahora(faltas.get(position).getSesion(),0);
+            franjahora2=getfranjahora(faltas.get(position).getSesion(),1);
+            String[] hm1=franjahora1.split("-");
+            String[] hm2=franjahora2.split("-");
+            String[] t1=hm1[0].split(":");
+            String[] t2=hm1[1].split(":");
+
+            String h1=t1[0];
+            String m1=t1[1];
+
+            String h2=t2[0];
+            String m2=t2[1];
+
+
+
+c1.setTime(horaactual);
+c2.setTime(horaactual);
+            c1.set(Calendar.AM_PM,1);
+            c1.set(Calendar.HOUR_OF_DAY,Integer.valueOf(h1));
+//            c1.set(Calendar.HOUR_OF_DAY,12);
+
+            c1.set(Calendar.MINUTE,Integer.valueOf(m1));
+            //c1.set(Calendar.MINUTE,1);
+
+            c2.set(Calendar.AM_PM,1);
+
+            c2.set(Calendar.HOUR_OF_DAY,Integer.valueOf(h2));
+            c2.set(Calendar.MINUTE,Integer.valueOf(m2));
+
             LayoutInflater inflater = context.getLayoutInflater();
             View item = inflater.inflate(R.layout.listitem_falta, null);
 
+
             TextView tsesion = (TextView)item.findViewById(R.id.sesion);
-            tsesion.setText("Sesion: "+faltas.get(position).getSesion());
+
+            tsesion.setText(franjahora1);
 
             TextView tpfalta = (TextView)item.findViewById(R.id.pfalta);
             tpfalta.setText(faltas.get(position).getProfesorFalta());
@@ -323,10 +369,64 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
             TextView tasignatura = (TextView)item.findViewById(R.id.asignatura);
             tasignatura.setText(faltas.get(position).getAsignatura());
 
+                if( calactual.after(c1) && calactual.before(c2))
+                    item.setBackgroundColor(Color.GREEN);
 
-            if(tasignatura.getText().equals("a2")) item.setBackgroundColor(Color.GREEN);
+
             return(item);
         }
+    }
+
+
+    private String getfranjahora(String sid,int f){
+        if(f==1 && !sid.equals("14")) sid=sid+1;
+        String fh="00:00-00:00";
+        switch (sid) {
+            case "1":
+                fh = "08:15-09:05";
+                break;
+            case "2":
+                fh = "09:05-09:55";
+                break;
+            case "3":
+                fh = "10:00-10:50";
+                break;
+            case "4":
+                fh = "11:20-12:10";
+                break;
+            case "5":
+                fh = "12:15-13:05";
+                break;
+            case "6":
+                fh = "13:10-14:00";
+                break;
+            case "7":
+                fh = "14:10-15:00";
+                break;
+            case "8":
+                fh = "15:00-15:50";
+                break;
+            case "9":
+                fh = "15:50-16:40";
+                break;
+            case "10":
+                fh = "16:40-17:30";
+                break;
+            case "11":
+                fh = "17:45-18:35";
+                break;
+            case "12":
+                fh = "18:35-19:25";
+                break;
+            case "13":
+                fh = "19:40-20:30";
+                break;
+            case "14":
+                fh = "20:30-21:20";
+                break;
+
+        }
+        return fh;
     }
 
     private  String getRegistrationId(Context context) {

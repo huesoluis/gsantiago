@@ -4,16 +4,17 @@ package com.example.android.gransantiago;
 /**
  * Created by multimedia on 17/03/2015.
  */
+import android.app.AlertDialog;
 import android.app.IntentService;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
-import android.widget.RemoteViews;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
@@ -33,6 +34,7 @@ public class GcmIntentService extends IntentService {
         super("GcmIntentService");
     }
     public static final String TAG = "gsa";
+    public Boolean guardia=true;
 
     @Override
     protected void onHandleIntent(Intent intent) {
@@ -51,17 +53,19 @@ public class GcmIntentService extends IntentService {
              * not interested in, or that you don't recognize.
              */
             if (GoogleCloudMessaging.MESSAGE_TYPE_SEND_ERROR.equals(messageType)) {
-                sendNotification("Error de envio: " + extras.toString());
+                sendNotification("Error de envio: " + extras.toString(),guardia);
             } else if (GoogleCloudMessaging.MESSAGE_TYPE_DELETED.equals(messageType)) {
-                sendNotification("Se han eliminado mensajes del servidor: " + extras.toString());
+                sendNotification("Se han eliminado mensajes del servidor: " + extras.toString(),guardia);
                 // If it's a regular GCM message, do some work.
             } else if (GoogleCloudMessaging.MESSAGE_TYPE_MESSAGE.equals(messageType)) {
 
                 Log.i(TAG, "Trarea terminada" + SystemClock.elapsedRealtime());
                 //Diferenciamos entre avisos (nuevas guardias) y notificaciones personales
 
-                if(extras.getString("sesion","").isEmpty())
-                    notificacion="Tienes una notificacion:\t"+extras.getString("aviso");
+                if(extras.getString("sesion","").isEmpty()) {
+                    notificacion = extras.getString("aviso");
+                    guardia=false;
+                   }
                 else
                     notificacion="Tienes Guardia\n Sesion:\t"+extras.getString("sesion","")+
                             "\nProfesor falta:\t"+extras.getString("pfalta","nadie")+"\nAsignatura:\t"+extras.getString("asignatura","ninguna");
@@ -69,7 +73,7 @@ public class GcmIntentService extends IntentService {
 
       //          notificacion="notificacion recibida";
                 // Post notification of received message.
-                sendNotification(notificacion);
+                sendNotification(notificacion,guardia);
 
                 Log.i(TAG, "Recibido: " + extras.toString() + extras.getString("Cubres") + extras.getString("Aula"));
             }
@@ -81,12 +85,23 @@ public class GcmIntentService extends IntentService {
     // Put the message into a notification and post it.
     // This is just one simple example of what you might choose to do with
     // a GCM message.
-    private void sendNotification(String msg) {
+    private void sendNotification(String msg, Boolean guardia) {
         mNotificationManager = (NotificationManager)
                 this.getSystemService(Context.NOTIFICATION_SERVICE);
-        Intent i=new Intent(this,Portada.class);
-        i.putExtra("pi",true);
-        PendingIntent contentIntent = PendingIntent.getActivity(this, 0,i, 0);
+        PendingIntent contentIntent;
+        if (guardia) {
+            Intent i = new Intent(this, Portada.class);
+            i.putExtra("pi", true);
+            contentIntent = PendingIntent.getActivity(this, 0, i, PendingIntent.FLAG_UPDATE_CURRENT);
+        } else {
+            Intent i = new Intent(this, Aviso.class);
+            i.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            //i.putExtra(msg, "No hay mensaje");
+            Log.i(TAG, "mensaje:"+msg);
+
+        i.putExtra("mensaje",msg);
+            contentIntent = PendingIntent.getActivity(this, 0, i, PendingIntent.FLAG_UPDATE_CURRENT);
+       }
 
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(this)
@@ -94,55 +109,13 @@ public class GcmIntentService extends IntentService {
                         .setContentTitle("Aviso")
                         .setStyle(new NotificationCompat.BigTextStyle()
                                 .bigText(msg))
-                        .setContentText(msg).setAutoCancel(true);
+                        .setContentText(msg).setAutoCancel(guardia);
 
         mBuilder.setContentIntent(contentIntent);
         mNotificationManager.notify(NOTIFICATION_ID, mBuilder.build());
     }
-    public void CustomNotification() {
-        // Using RemoteViews to bind custom layouts into Notification
-        RemoteViews remoteViews = new RemoteViews(getPackageName(),
-                R.layout.customnotification);
 
-        // Set Notification Title
-        String strtitle = getString(R.string.customnotificationtitle);
-        // Set Notification Text
-        String strtext = getString(R.string.customnotificationtext);
 
-        // Open NotificationView Class on Notification Click
-        Intent intent = new Intent(this, Registro.class);
-        // Send data to NotificationView Class
-        intent.putExtra("title", strtitle);
-        intent.putExtra("text", strtext);
-        // Open NotificationView.java Activity
-        PendingIntent pIntent = PendingIntent.getActivity(this, 0, intent,
-                PendingIntent.FLAG_UPDATE_CURRENT);
 
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
-                // Set Icon
-                .setSmallIcon(R.drawable.logosmall)
-                        // Set Ticker Message
-                .setTicker(getString(R.string.customnotificationticker))
-                        // Dismiss Notification
-                .setAutoCancel(true)
-                        // Set PendingIntent into Notification
-                .setContentIntent(pIntent)
-                        // Set RemoteViews into Notification
-                .setContent(remoteViews);
-
-        // Locate and set the Image into customnotificationtext.xml ImageViews
-        remoteViews.setImageViewResource(R.id.imagenotileft,R.drawable.ic_launcher);
-        remoteViews.setImageViewResource(R.id.imagenotiright,R.drawable.androidhappy);
-
-        // Locate and set the Text into customnotificationtext.xml TextViews
-        remoteViews.setTextViewText(R.id.title,getString(R.string.customnotificationtitle));
-        remoteViews.setTextViewText(R.id.text,getString(R.string.customnotificationtext));
-
-        // Create Notification Manager
-        NotificationManager notificationmanager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-        // Build Notification with Notification Manager
-        notificationmanager.notify(0, builder.build());
-
-    }
 
 }

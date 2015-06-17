@@ -55,5 +55,6 @@
     <string name="lbltext">"Text : "</string>
     <string name="notification">Notification</string>
     <string name="customnotification">Custom Notification</string>
+    <string name="title_activity_aviso">aviso</string>
 
 </resources>

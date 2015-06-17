@@ -35,34 +35,7 @@ public class PreferencesActivity extends PreferenceActivity
         Log.i("gsh", "entrando en prefs, np=" + np);
         regid  = prefs.getString("regid", "No hay registro");
         if(!regid.equals("No hay registro")){regid="Registrado";}
-/*
-        AlertDialog.Builder build = new AlertDialog.Builder(this);
-//setting some title text
-        build.setTitle("SomeTitle");
-//setting radiobuttons list
-        build.setSingleChoiceItems(new String[]{"One", "Two"}, 0, new DialogInterface.OnClickListener() {
 
-
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                Log.e("dialog", "entrando en prefs");
-
-                //Some behavior here
-                Toast.makeText(getBaseContext(), "firing!!!", Toast.LENGTH_LONG).show();
-
-            }
-        });
-        build.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                //Might be empty
-            }
-        });
-        //creating dialog and showing
-        AlertDialog dialog = build.create();
-        dialog.show();
-*/
     }
 
     public static class MyPreferenceFragment extends PreferenceFragment
