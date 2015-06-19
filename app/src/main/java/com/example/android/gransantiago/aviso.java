@@ -23,7 +23,6 @@ String msg;
             msg2=extras.getString("mensaje");
             msg=i.getStringExtra("mensaje");
 
-            Log.i("notificaciones", "recibido aviso:" + msg+msg2);
             // set title
             alertDialogBuilder.setTitle("Aviso importante");
 
