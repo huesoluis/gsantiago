@@ -51,7 +51,6 @@ PreferenceCategory pc;
         public void onCreate(final Bundle savedInstanceState)
         {
             super.onCreate(savedInstanceState);
-            Log.i("prefs1", "entrando en prefs");
 df=new SomeDialog();
            addPreferencesFromResource(R.xml.preferences);
             ep1=getPreferenceScreen().findPreference("cprofesor");
@@ -63,7 +62,6 @@ df=new SomeDialog();
             ep1.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
-                    Log.i("prefs2", "entrando en prefs2");
                     df.show(getFragmentManager(), "activationDialog");
                     //Toast.makeText(getActivity(), "firing!!!", Toast.LENGTH_LONG).show();
                     return true;
@@ -72,7 +70,6 @@ df=new SomeDialog();
             ep2.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
-                    Log.i("prefs2", "entrando en prefs2");
                     df.show(getFragmentManager(), "activationDialog");
                     //Toast.makeText(getActivity(), "firing!!!", Toast.LENGTH_LONG).show();
                     return true;
