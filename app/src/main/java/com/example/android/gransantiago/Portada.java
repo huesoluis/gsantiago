@@ -276,6 +276,7 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
         protected void onPreExecute() {
             btnCarga.setVisibility(View.GONE);
             mProgressBar.setVisibility(ProgressBar.VISIBLE);
+            rfaltas.clear();
         }
 
         protected Boolean doInBackground(String... params) {
@@ -429,7 +430,7 @@ c2.setTime(horaactual);
         return fh;
     }
 
-
+//portada
     private  String getRegistrationId(Context context) {
         final SharedPreferences prefs = getGCMPreferences(context);
         String registrationId = prefs.getString(PROPERTY_REGID, "");

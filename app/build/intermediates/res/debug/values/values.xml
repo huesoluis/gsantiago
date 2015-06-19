@@ -287,6 +287,7 @@
     <string name="store_picture_title">Save image</string>
     <!-- From: file:/E:/proyectogsantiago/gransantiago/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="title_activity_aviso">aviso</string>
     <string name="title_activity_main">Push Notifications</string>
     <string name="title_activity_registro">Registro</string>
     <!-- From: file:/E:/proyectogsantiago/gransantiago/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/wallet_strings.xml -->

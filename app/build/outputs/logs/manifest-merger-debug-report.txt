@@ -43,51 +43,51 @@ uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from AndroidManifest.xml:27:5
 	android:name
 		ADDED from AndroidManifest.xml:27:22
-permission#com.example.android.gsantiago.permission.C2D_MESSAGE
+permission#com.example.android.gransantiago.permission.C2D_MESSAGE
 ADDED from AndroidManifest.xml:29:5
 	android:protectionLevel
+		ADDED from AndroidManifest.xml:31:9
+	android:name
 		ADDED from AndroidManifest.xml:30:9
-	android:name
-		ADDED from AndroidManifest.xml:29:17
-uses-permission#com.example.android.gsantiago.permission.C2D_MESSAGE
-ADDED from AndroidManifest.xml:31:5
-	android:name
-		ADDED from AndroidManifest.xml:31:22
-android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+uses-permission#com.example.android.gransantiago.permission.C2D_MESSAGE
 ADDED from AndroidManifest.xml:33:5
+	android:name
+		ADDED from AndroidManifest.xml:33:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:34:5
 	android:maxSdkVersion
+		ADDED from AndroidManifest.xml:36:9
+	android:name
 		ADDED from AndroidManifest.xml:35:9
-	android:name
-		ADDED from AndroidManifest.xml:34:9
-android:uses-permission#android.permission.READ_PHONE_STATE
-ADDED from AndroidManifest.xml:36:5
-	android:name
-		ADDED from AndroidManifest.xml:36:30
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+uses-permission#android.permission.READ_PHONE_STATE
 ADDED from AndroidManifest.xml:37:5
-	android:maxSdkVersion
-		ADDED from AndroidManifest.xml:39:9
 	android:name
-		ADDED from AndroidManifest.xml:38:9
+		ADDED from AndroidManifest.xml:37:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:38:5
+	android:maxSdkVersion
+		ADDED from AndroidManifest.xml:40:9
+	android:name
+		ADDED from AndroidManifest.xml:39:9
 application
-ADDED from AndroidManifest.xml:41:5
+ADDED from AndroidManifest.xml:42:5
 MERGED from com.android.support:support-v4:21.0.3:16:5
 MERGED from com.android.support:appcompat-v7:21.0.3:16:5
 MERGED from com.android.support:support-v4:21.0.3:16:5
 MERGED from com.google.android.gms:play-services:6.5.87:20:5
 MERGED from com.android.support:support-v4:21.0.3:16:5
 	android:label
-		ADDED from AndroidManifest.xml:43:9
-	android:icon
-		ADDED from AndroidManifest.xml:42:9
-	android:theme
 		ADDED from AndroidManifest.xml:44:9
-receiver#com.example.android.gsantiago.GcmBroadcastReceiver
+	android:icon
+		ADDED from AndroidManifest.xml:43:9
+	android:theme
+		ADDED from AndroidManifest.xml:45:9
+receiver#com.example.android.gransantiago.GcmBroadcastReceiver
 ADDED from AndroidManifest.xml:46:9
 	android:permission
-		ADDED from AndroidManifest.xml:47:13
+		ADDED from AndroidManifest.xml:48:13
 	android:name
-		ADDED from AndroidManifest.xml:46:19
+		ADDED from AndroidManifest.xml:47:13
 intent-filter#com.example.android.gsantiago+com.google.android.c2dm.intent.RECEIVE
 ADDED from AndroidManifest.xml:49:13
 action#com.google.android.c2dm.intent.RECEIVE
@@ -95,51 +95,71 @@ ADDED from AndroidManifest.xml:50:17
 	android:name
 		ADDED from AndroidManifest.xml:50:25
 category#com.example.android.gsantiago
-ADDED from AndroidManifest.xml:51:17
+ADDED from AndroidManifest.xml:52:17
 	android:name
-		ADDED from AndroidManifest.xml:51:27
-service#com.example.android.gsantiago.GcmIntentService
-ADDED from AndroidManifest.xml:55:9
+		ADDED from AndroidManifest.xml:52:27
+service#com.example.android.gransantiago.GcmIntentService
+ADDED from AndroidManifest.xml:56:9
 	android:name
-		ADDED from AndroidManifest.xml:55:18
-activity#com.example.android.gsantiago.Portada
-ADDED from AndroidManifest.xml:57:9
+		ADDED from AndroidManifest.xml:56:18
+activity#com.example.android.gransantiago.Portada
+ADDED from AndroidManifest.xml:58:9
 	android:label
-		ADDED from AndroidManifest.xml:59:13
-	android:theme
+		ADDED from AndroidManifest.xml:61:13
+	android:configChanges
 		ADDED from AndroidManifest.xml:60:13
+	android:theme
+		ADDED from AndroidManifest.xml:62:13
 	android:name
-		ADDED from AndroidManifest.xml:58:13
+		ADDED from AndroidManifest.xml:59:13
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:61:13
+ADDED from AndroidManifest.xml:63:13
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:62:17
-	android:name
-		ADDED from AndroidManifest.xml:62:25
-category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:64:17
 	android:name
-		ADDED from AndroidManifest.xml:64:27
-activity#com.example.android.gsantiago.PreferencesActivity
-ADDED from AndroidManifest.xml:68:9
+		ADDED from AndroidManifest.xml:64:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:66:17
+	android:name
+		ADDED from AndroidManifest.xml:66:27
+activity#com.example.android.gransantiago.PreferencesActivity
+ADDED from AndroidManifest.xml:69:9
 	android:label
 		ADDED from AndroidManifest.xml:71:13
 	android:theme
-		ADDED from AndroidManifest.xml:69:13
+		ADDED from AndroidManifest.xml:72:13
 	android:name
 		ADDED from AndroidManifest.xml:70:13
-activity#com.example.android.gsantiago.Registro
+activity#com.example.android.gransantiago.Registro
 ADDED from AndroidManifest.xml:74:9
 	android:label
 		ADDED from AndroidManifest.xml:76:13
 	android:name
 		ADDED from AndroidManifest.xml:75:13
-activity#com.example.android.gsantiago.Preferencias
-ADDED from AndroidManifest.xml:78:9
+activity#com.example.android.gransantiago.Preferencias
+ADDED from AndroidManifest.xml:79:9
 	android:label
-		ADDED from AndroidManifest.xml:80:13
+		ADDED from AndroidManifest.xml:81:13
 	android:name
-		ADDED from AndroidManifest.xml:79:13
+		ADDED from AndroidManifest.xml:80:13
+activity#com.example.android.gransantiago.Aviso
+ADDED from AndroidManifest.xml:83:9
+	android:label
+		ADDED from AndroidManifest.xml:86:13
+	android:name
+		ADDED from AndroidManifest.xml:84:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:85:13
+intent-filter#android.intent.category.DEFAULT+com.example.android.gransantiago.aviso
+ADDED from AndroidManifest.xml:88:13
+action#com.example.android.gransantiago.aviso
+ADDED from AndroidManifest.xml:89:17
+	android:name
+		ADDED from AndroidManifest.xml:89:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:91:17
+	android:name
+		ADDED from AndroidManifest.xml:91:27
 meta-data#com.google.android.gms.version
 ADDED from com.google.android.gms:play-services:6.5.87:21:9
 	android:name
