@@ -10,9 +10,8 @@ import android.util.Log;
 
 public class PreferencesActivity2 extends PreferenceActivity
 {
-//    AlertDialog alertDialog;
     static String dni;
- static String np;
+    static String np;
     public static final String PROPERTY_NP = "np";
     static  String regid;
 
