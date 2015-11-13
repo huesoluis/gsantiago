@@ -4,17 +4,13 @@ package com.example.android.gransantiago;
 /**
  * Created by multimedia on 17/03/2015.
  */
-import android.app.AlertDialog;
 import android.app.IntentService;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
-import android.util.Log;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
@@ -58,7 +54,6 @@ public class GcmIntentService extends IntentService {
                 // If it's a regular GCM message, do some work.
             } else if (GoogleCloudMessaging.MESSAGE_TYPE_MESSAGE.equals(messageType)) {
 
-                Log.i(TAG, "Trarea terminada" + SystemClock.elapsedRealtime());
                 //Diferenciamos entre avisos (nuevas guardias) y notificaciones personales
 
                 if(extras.getString("sesion","").isEmpty()) {
@@ -92,7 +87,6 @@ public class GcmIntentService extends IntentService {
         } else {
             Intent i = new Intent(this, Aviso.class);
             i.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            Log.i(TAG, "mensaje:"+msg);
 
         i.putExtra("mensaje",msg);
             contentIntent = PendingIntent.getActivity(this, 0, i, PendingIntent.FLAG_UPDATE_CURRENT);

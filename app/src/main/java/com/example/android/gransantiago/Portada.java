@@ -10,7 +10,6 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -27,16 +26,14 @@ import android.widget.Toast;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
 import java.net.HttpURLConnection;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Locale;
+import java.util.GregorianCalendar;
+import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
+
 import static com.example.android.gransantiago.ServerUtilities.GUARDIAS_URL;
-import static java.util.Calendar.HOUR;
 
 public class Portada extends ActionBarActivity {
 
@@ -71,7 +68,6 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
         sactionbar.setDisplayShowTitleEnabled(true);
         sactionbar.setHomeButtonEnabled(true);
         sactionbar.setBackgroundDrawable(new ColorDrawable(0xffff6666)); // set your desired color
-     //   sactionbar.setDisplayHomeAsUpEnabled(true);
         sactionbar.setBackgroundDrawable(getResources().getDrawable(R.drawable.bggg_main));
 
 //layout de la portada
@@ -164,7 +160,6 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
     public boolean unregistro() {
 
         GoogleCloudMessaging gcm;
-        Log.i("unreg","cancelando registro...");
         gcm = GoogleCloudMessaging.getInstance(context);
        //borrando preferencias
         final SharedPreferences prefs = getGCMPreferences(context);
@@ -175,7 +170,6 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
         dni=prefslocal.getString(PROPERTY_DNI,"vacio");
         numprofesor=prefslocal.getString(PROPERTY_NUMPROFESOR, "vacio");
         editor.clear();
-        Log.i("unreg","cancelado en prefs");
 
 //cancelar registro en gcm
         editor.commit();
@@ -301,76 +295,89 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
 
 //clase adaptador para mostrar el listado de guardias
     class AdaptadorFaltas extends ArrayAdapter<Falta> {
-
-        Activity context;
+         Activity context;
         Date horaactual;
     Calendar calactual,c1,c2;
-
+    GregorianCalendar gcalactual,gc1,gc2;
+    TimeZone tz;
     AdaptadorFaltas(Activity context) {
             super(context, R.layout.listitem_falta, faltas);
+        TimeZone timeZones = TimeZone.getDefault();
+
+
+        TimeZone tz= TimeZone.getTimeZone("GMT+1");
+
             this.context = context;
             this.horaactual= new Date();
             this.calactual=Calendar.getInstance();
-            this.c1=Calendar.getInstance();
             this.c2=Calendar.getInstance();
+            this.c1=Calendar.getInstance();
+        c2.setTime(horaactual);
+        c1.setTime(horaactual);
+        this.horaactual= new Date();
+        this.calactual.setTimeZone(tz);
+        this.gcalactual= new GregorianCalendar(tz);
+
+        this.gc2=new GregorianCalendar();
+        this.gc1=new GregorianCalendar();
+
     }
 
-        public View getView(int position, View convertView, ViewGroup parent) {
-            String franjahora1="00:00-00:00";
-            String franjahora2="00:00-00:00";
-            franjahora1=getfranjahora(faltas.get(position).getSesion(),0);
-            franjahora2=getfranjahora(faltas.get(position).getSesion(),1);
-            String[] hm1=franjahora1.split("-");
-            String[] hm2=franjahora2.split("-");
-            String[] t1=hm1[0].split(":");
-            String[] t2=hm1[1].split(":");
 
-            String h1=t1[0];
-            String m1=t1[1];
+    public View getView(int position, View convertView, ViewGroup parent) {
+        gc1.setTimeInMillis(calactual.getTimeInMillis());
+        gc2.setTimeInMillis(calactual.getTimeInMillis());
 
-            String h2=t2[0];
-            String m2=t2[1];
+        String franjahora1 = "00:00-00:00";
+        String franjahora2 = "00:00-00:00";
+        franjahora1 = getfranjahora(faltas.get(position).getSesion(), 0);
+        franjahora2 = getfranjahora(faltas.get(position).getSesion(), 1);
+        String[] hm1 = franjahora1.split("-");
+        String[] hm2 = franjahora2.split("-");
+        String[] t1 = hm1[0].split(":");
+        String[] t2 = hm1[1].split(":");
 
+        String h1 = t1[0];
+        String m1 = t1[1];
 
+        String h2 = t2[0];
+        String m2 = t2[1];
 
-            c1.setTime(horaactual);
-            c2.setTime(horaactual);
-            c1.set(Calendar.AM_PM,1);
-            c1.set(Calendar.HOUR_OF_DAY,Integer.valueOf(h1));
-//            c1.set(Calendar.HOUR_OF_DAY,12);
+        gc2.set(GregorianCalendar.AM_PM, 1);
+        gc2.set(GregorianCalendar.HOUR_OF_DAY, Integer.valueOf(h2));
+        gc2.set(GregorianCalendar.MINUTE, Integer.valueOf(m2));
 
-            c1.set(Calendar.MINUTE,Integer.valueOf(m1));
-            //c1.set(Calendar.MINUTE,1);
+        gc1.set(GregorianCalendar.AM_PM, 1);
+        gc1.set(GregorianCalendar.HOUR_OF_DAY, Integer.valueOf(h1));
+        gc1.set(GregorianCalendar.MINUTE, Integer.valueOf(m1));
 
-            c2.set(Calendar.AM_PM,1);
+        LayoutInflater inflater = context.getLayoutInflater();
+        View item = inflater.inflate(R.layout.listitem_falta, null);
 
-            c2.set(Calendar.HOUR_OF_DAY,Integer.valueOf(h2));
-            c2.set(Calendar.MINUTE,Integer.valueOf(m2));
+        TextView tsesion = (TextView) item.findViewById(R.id.sesion);
 
-            LayoutInflater inflater = context.getLayoutInflater();
-            View item = inflater.inflate(R.layout.listitem_falta, null);
+        tsesion.setText(franjahora1);
 
+        TextView tpfalta = (TextView) item.findViewById(R.id.pfalta);
+        tpfalta.setText(faltas.get(position).getProfesorFalta());
 
-            TextView tsesion = (TextView)item.findViewById(R.id.sesion);
+        TextView tpcubre = (TextView) item.findViewById(R.id.pcubre);
+        tpcubre.setText(faltas.get(position).getProfesorCubre());
 
-            tsesion.setText(franjahora1);
+        TextView tasignatura = (TextView) item.findViewById(R.id.asignatura);
+        tasignatura.setText(faltas.get(position).getAsignatura());
 
-            TextView tpfalta = (TextView)item.findViewById(R.id.pfalta);
-            tpfalta.setText(faltas.get(position).getProfesorFalta());
-
-            TextView tpcubre = (TextView)item.findViewById(R.id.pcubre);
-            tpcubre.setText(faltas.get(position).getProfesorCubre());
-
-            TextView tasignatura = (TextView)item.findViewById(R.id.asignatura);
-            tasignatura.setText(faltas.get(position).getAsignatura());
-
-                if( calactual.after(c1) && calactual.before(c2))
-                    item.setBackgroundColor(Color.GREEN);
-
-
-            return(item);
+        if (gcalactual.after(gc1) && gcalactual.before(gc2))
+        {
+            item.setBackgroundColor(Color.GREEN);
         }
+
+
+        return(item);
     }
+}
+
+
 
 
     private String getfranjahora(String sid,int f){

@@ -4,8 +4,6 @@ import android.util.Log;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import java.io.IOException;
@@ -25,10 +23,7 @@ public class RssParserDom3
     {
         try
         {
-            Log.d("cpa", "cargando url"+url);
-
             this.rssUrl = new URL(url);
-            Log.d("cpa", "construido parser");
         }
         catch (MalformedURLException e)
         {
@@ -40,7 +35,6 @@ public class RssParserDom3
     {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         ArrayList<Falta> faltas = new ArrayList<Falta>();
-        Log.d("ep", "Entrandoparser");
 
         try {
 
@@ -55,9 +49,6 @@ public class RssParserDom3
 
 //una vez creado listado de sesiones procesamos cada una
             for (int j = 0; j < sesiones.getLength(); j++) {
-                Log.d("dsesiones", sesiones.item(j).getNodeName()+sesiones.getLength());
-
-                Log.d("dsesiones",sesiones.item(j).getAttributes().getNamedItem("id").getNodeValue());
                 String sesion=sesiones.item(j).getAttributes().getNamedItem("id").getNodeValue();
 
                 NodeList datosFaltas = sesiones.item(j).getChildNodes();
@@ -71,7 +62,6 @@ public class RssParserDom3
                         String nombre_cubre=datosFaltas.item(i).getChildNodes().item(5).getTextContent();
                         String profesor_cubre=datosFaltas.item(i).getChildNodes().item(3).getTextContent();
                         String asignatura=datosFaltas.item(i).getChildNodes().item(7).getTextContent();
-Log.d("nv",datosFaltas.item(i).getChildNodes().item(3).getNodeName()+datosFaltas.item(i).getChildNodes().item(4).getNodeValue());
                         f.setProfesorFalta(nombre_falta);
                         f.setProfesorCubre(nombre_cubre);
                         f.setAsignatura(asignatura);
@@ -84,53 +74,22 @@ Log.d("nv",datosFaltas.item(i).getChildNodes().item(3).getNodeName()+datosFaltas
                       }
 
                 }
-                //de cada sesion extraemos las faltas q contiene
-                /*
-                for (int k = 0; k < datosFaltas.getLength(); k = k++) {
-                    NodeList nlfaltas = datosFaltas.item(k).getChildNodes();
-                    Log.d("epc", datosFaltas.item(k).getNodeName()+datosFaltas.getLength());
-                    Log.d("nlf", nlfaltas.item(k).getNodeName());
-
-                    //Falta f = new Falta();
-                    //de cada falta la procesamos
-                    Falta f = new Falta();
-
-
-
-                    Log.d("fleidas2", Integer.toString(faltas.size()) + faltas.get(1).getProfesorCubre());
-                }*/
+//de cada sesion extraemos las faltas q contiene
 
         }
         catch (Exception ex)
         {
-            Log.d("faltas exception", ex.toString());
-
             throw new RuntimeException(ex);
         }
 
         return faltas;
     }
 
-    private String obtenerTexto(Node dato)
-    {
-        StringBuilder texto = new StringBuilder();
-        NodeList fragmentos = dato.getChildNodes();
-
-        for (int k=0;k<fragmentos.getLength();k++)
-        {
-            texto.append(fragmentos.item(k).getNodeValue());
-        }
-
-        return texto.toString();
-    }
-
     private InputStream getInputStream()
     {
         try
         {
-            Log.d("Conectando...", "e");
             return rssUrl.openConnection().getInputStream();
-
         }
         catch (IOException e)
         {

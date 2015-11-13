@@ -3,10 +3,11 @@ package com.example.android.gransantiago;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
-
+import android.support.v7.app.ActionBarActivity;
+/**
+ Clase para lanzar cuando se pulsa en un aviso recibido desde la web
+ * */
 
 public class Aviso extends ActionBarActivity {
 String msg;

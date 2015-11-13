@@ -12,20 +12,16 @@ import java.net.URL;
 
 import java.util.Random;
 
-
-
-
 public final class ServerUtilities {
     private static final int MAX_ATTEMPTS = 5;
     public static final String IP = "10.2.100.4";
     private static final int BACKOFF_MILLI_SECONDS = 2000;
     private static final Random random = new Random();
 
-    // url de registro
-    //static final String REGISTER_URL = "http://"+IP+"/gransantiago/register.php";
+// url de registro
 
     static final String REGISTER_URL = "http://www.iessantiagohernandez.com/gransantiago/register.php";
-    //url para cargar guardias
+//url para cargar guardias
     static final String GUARDIAS_URL = "http://www.iessantiagohernandez.com/XmlGuardia/guardias.xml";
 
     // Google project id
@@ -47,10 +43,6 @@ public final class ServerUtilities {
      */
     static Boolean register(Context context, String numprofesor,String dni, String regid, String alta) {
         Boolean r=false;
-        Log.i(TAG, "entrando en funcion register");
-        Log.i("unreg","entrando en register");
-
-
         String serverUrl = REGISTER_URL;
         String params = "regid="+regid+"&dni="+dni+"&numprofesor="+numprofesor+"&alta="+alta;
 
@@ -59,9 +51,7 @@ public final class ServerUtilities {
         // As the server might be down, we will retry it a couple
         // times.
         for (int i = 1; i <= MAX_ATTEMPTS; i++) {
-            Log.d(TAG, "Attempt #" + i + " to register");
             try {
-                Log.i("unreg","posteando");
 
                 r=postfinal(serverUrl, params);
                 if(alta.equals("baja"))
@@ -103,9 +93,6 @@ public final class ServerUtilities {
         } catch (MalformedURLException e) {
             throw new IllegalArgumentException("invalid url: " + endpoint);
         }
-        Log.i("desreg","Entrando en postfinal");
-        Log.i(TAG, "Enntrando en postfinal");
-        Log.i("unreg","entrando en postfinal");
 
          HttpURLConnection con = (HttpURLConnection) url.openConnection();
 
@@ -130,10 +117,6 @@ public final class ServerUtilities {
         }
         in.close();
         con.disconnect();
-        Log.i("desreg","saliendo de postfinal");
-        Log.i("desreg", "respuesta"+response.toString());
-        Log.i("desreg","saliendo de postfinal");
-
 
         if(response.toString().equals("1")) return true;
         else return false;

@@ -1,11 +1,7 @@
 package com.example.android.gransantiago;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -26,10 +22,8 @@ import com.google.android.gms.gcm.GoogleCloudMessaging;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static android.app.AlertDialog.*;
 import static com.example.android.gransantiago.ServerUtilities.REGISTER_URL;
 
-//import static com.example.android.gransantiago.AlertDialogManager;
 
 
 public class Registro extends FragmentActivity {
@@ -82,18 +76,6 @@ public class Registro extends FragmentActivity {
             Log.i(TAG, "No valid Google Play Services APK found.");
         }
 
-      /*  cd = new ConnectionDetector(getApplicationContext());
-
-        // Check if Internet present
-        if (!cd.isConnectingToInternet()) {
-            // Internet Connection is not present
-            alert.showAlertDialog(RegisterActivity.this,
-                    "Internet Connection Error",
-                    "Please connect to working Internet connection", false);
-            // stop executing code by return
-            return;
-        }
-        */
         // Check if GCM configuration is set
         if (REGISTER_URL == null || SENDER_ID == null || REGISTER_URL.length() == 0
                 || SENDER_ID.length() == 0) {
@@ -119,11 +101,10 @@ public class Registro extends FragmentActivity {
                 dni = txtDni.getText().toString();
                 numprofesor= txtNp.getText().toString();
 
-                // Comprobamos si se ha rellenado el formulario correctamente
+// Comprobamos si se ha rellenado el formulario correctamente
                 if(dni.trim().length() !=8 && numprofesor.trim().equals("")){
                     Toast.makeText(getApplicationContext(), "dni o número de profesor incorrecto, vuelve a intentarlo", Toast.LENGTH_SHORT).show();
                     alert.showAlertDialog(Registro.this, "Error en los datos", "Inténtalo de nuevo", false);
-//                    finish();
                     return;
                 }
                 if (regid.isEmpty()) {
@@ -144,7 +125,7 @@ public class Registro extends FragmentActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        // Check device for Play Services APK.
+// Check device for Play Services APK.
         checkPlayServices();
 
 
@@ -201,12 +182,12 @@ public class Registro extends FragmentActivity {
                     .getPackageInfo(context.getPackageName(), 0);
             return packageInfo.versionCode;
         } catch (PackageManager.NameNotFoundException e) {
-            // should never happen
+// should never happen
             throw new RuntimeException("Could not get package name: " + e);
         }
     }
 
-    //Tarea que realiza el registro en segundo plano
+//Tarea que realiza el registro en segundo plano
     private class RegistroTask extends AsyncTask<Activity,Integer,Boolean> {
 
         Boolean res;
@@ -264,9 +245,7 @@ public class Registro extends FragmentActivity {
      * using the 'from' address in the message.
      */
     private boolean sendRegistrationIdToBackend() {
-        // Your implementation here.
-//        Toast.makeText(getApplicationContext(), "sending data", Toast.LENGTH_SHORT).show();
-        Log.i(TAG, "registrando dispositivo");
+
         boolean registro;
        registro=ServerUtilities.register(context, numprofesor, dni, regid,"alta");
         return registro;
@@ -274,8 +253,6 @@ public class Registro extends FragmentActivity {
     private void storeRegistrationId(Context context, String regid, String dni, String numprofesor) {
         final SharedPreferences prefs = getGCMPreferences(context);
         int appVersion = getAppVersion(context);
-        Log.i(TAG, "Guardando datos en la version " + appVersion);
-        Log.i("registronp",numprofesor);
         SharedPreferences.Editor editor = prefs.edit();
         editor.putString(PROPERTY_REGID, regid);
         editor.putString(PROPERTY_DNI, dni);
@@ -284,31 +261,4 @@ public class Registro extends FragmentActivity {
         editor.commit();
     }
 
-    private void regdialog() {
-        Builder alertDialogBuilder = new Builder(getApplicationContext());
-
-            // set title
-            alertDialogBuilder.setTitle("Registro");
-
-            // set dialog message
-            alertDialogBuilder
-                    .setMessage("Ha sido imposible realizar el registro, consulta al administrador o revisa tu conexión\nzizeog@gmail.com")
-                    .setCancelable(false)
-                    .setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                            // if this button is clicked, close
-                            // current activity
-                            Registro.this.finish();
-                        }
-                    });
-
-            // create alert dialog
-            AlertDialog alertDialog = alertDialogBuilder.create();
-
-            // show it
-            alertDialog.show();
-
-
-      return;
-    }
 }

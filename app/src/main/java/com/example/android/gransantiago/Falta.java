@@ -15,8 +15,6 @@ public class Falta
 		pfalta = falta;
 		pcubre = cubre;
         asignatura=asig;
-        nfalta=nfalta;
-        ncubre=ncubre;
 	}
     public Falta(){
         pfalta = "nadie";
@@ -32,12 +30,6 @@ public class Falta
 	public String getProfesorCubre(){
 		return pcubre;
 	}
-    public String getNombrefalta(){
-        return nfalta;
-    }
-    public String getNombreCubre(){
-        return ncubre;
-    }
 
     public String getProfesorFalta(){
 		return pfalta ;
