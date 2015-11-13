@@ -44,7 +44,7 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
         <receiver
-            android:name=".GcmBroadcastReceiver"
+            android:name="com.example.android.gransantiago.GcmBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
@@ -53,10 +53,10 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".GcmIntentService" />
+        <service android:name="com.example.android.gransantiago.GcmIntentService" />
 
         <activity
-            android:name=".Portada"
+            android:name="com.example.android.gransantiago.Portada"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
@@ -67,21 +67,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PreferencesActivity"
+            android:name="com.example.android.gransantiago.PreferencesActivity"
             android:label="principal"
             android:theme="@style/Theme.SettingsBackground" >
         </activity>
         <activity
-            android:name=".Registro"
+            android:name="com.example.android.gransantiago.Registro"
             android:label="@string/title_activity_registro" >
         </activity>
 
         <activity
-            android:name=".Preferencias"
+            android:name="com.example.android.gransantiago.Preferencias"
             android:label="preferencias" >
         </activity>
         <activity
-            android:name=".Aviso"
+            android:name="com.example.android.gransantiago.Aviso"
             android:launchMode="singleTop"
             android:label="@string/title_activity_aviso" >
 

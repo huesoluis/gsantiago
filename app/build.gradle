@@ -2,13 +2,11 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 21
     buildToolsVersion "21.1.2"
-
     defaultConfig {
-        applicationId "com.example.android.gransantiago"
+        applicationId 'com.example.android.gransantiago'
         minSdkVersion 17
         targetSdkVersion 21
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -16,6 +14,8 @@ android {
         }
         buildType {
         }
+    }
+    productFlavors {
     }
 }
 
