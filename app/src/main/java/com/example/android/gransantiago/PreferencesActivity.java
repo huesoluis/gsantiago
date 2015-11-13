@@ -14,9 +14,8 @@ import android.util.Log;
 
 public class PreferencesActivity extends PreferenceActivity
 {
-//    AlertDialog alertDialog;
     static String dni;
- static String np;
+    static String np;
     public static final String PROPERTY_NP = "np";
     static  String regid;
 
@@ -24,35 +23,28 @@ public class PreferencesActivity extends PreferenceActivity
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
-
         super.onCreate(savedInstanceState);
-
-
         getFragmentManager().beginTransaction().replace(android.R.id.content, new MyPreferenceFragment()).commit();
         SharedPreferences prefs=getSharedPreferences("Registro",MODE_PRIVATE);
         dni = prefs.getString("dni", "No hay dni");
-        np = prefs.getString(PROPERTY_NP, "No hay código");
-        Log.i("gsh", "entrando en prefs, np=" + np);
+        np = prefs.getString("numprofesor", "No hay código");
         regid  = prefs.getString("regid", "No hay registro");
         if(!regid.equals("No hay registro")){regid="Registrado";}
-
     }
 
     public static class MyPreferenceFragment extends PreferenceFragment
     {
 
         DialogFragment df;
-Preference ep1,ep2,ep3;
-PreferenceCategory pc;
-
-
+        Preference ep1,ep2,ep3;
+        PreferenceCategory pc;
 
         @Override
         public void onCreate(final Bundle savedInstanceState)
         {
             super.onCreate(savedInstanceState);
-df=new SomeDialog();
-           addPreferencesFromResource(R.xml.preferences);
+            df=new SomeDialog();
+            addPreferencesFromResource(R.xml.preferences);
             ep1=getPreferenceScreen().findPreference("cprofesor");
             ep1.setSummary(np);
             ep2=getPreferenceScreen().findPreference("registrado");
@@ -63,7 +55,6 @@ df=new SomeDialog();
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
                     df.show(getFragmentManager(), "activationDialog");
-                    //Toast.makeText(getActivity(), "firing!!!", Toast.LENGTH_LONG).show();
                     return true;
                 }
             });
@@ -71,31 +62,23 @@ df=new SomeDialog();
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
                     df.show(getFragmentManager(), "activationDialog");
-                    //Toast.makeText(getActivity(), "firing!!!", Toast.LENGTH_LONG).show();
                     return true;
                 }
             });
             ep3.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
-                    Log.i("prefs2", "entrando en prefs2");
                     df.show(getFragmentManager(), "activationDialog");
-                    //Toast.makeText(getActivity(), "firing!!!", Toast.LENGTH_LONG).show();
                     return true;
                 }
             });
-
-
         }
 
 
         @Override
         public void onResume() {
-
             super.onResume();
         }
-
-
 
     }
     public static class SomeDialog extends DialogFragment {
@@ -108,7 +91,6 @@ df=new SomeDialog();
                     .setPositiveButton(android.R.string.yes,  new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            // do something
                         }
                     })
                     .create();

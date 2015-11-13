@@ -188,11 +188,6 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
 
         CancelRegistroTask cr=new CancelRegistroTask();
         cr.execute();
-
-
-
-        Log.i("unreg","cancelado con exito");
-
         return true;
     }
 
@@ -263,7 +258,6 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
     }
 
     private void actualizar() {
-       // adaptador.clear();
         faltas.clear();
         adaptador.notifyDataSetChanged();
         Cargarguardias cguardias = new Cargarguardias();
@@ -339,8 +333,8 @@ final String PROPERTY_NUMPROFESOR = "numprofesor";
 
 
 
-c1.setTime(horaactual);
-c2.setTime(horaactual);
+            c1.setTime(horaactual);
+            c2.setTime(horaactual);
             c1.set(Calendar.AM_PM,1);
             c1.set(Calendar.HOUR_OF_DAY,Integer.valueOf(h1));
 //            c1.set(Calendar.HOUR_OF_DAY,12);
@@ -468,9 +462,7 @@ c2.setTime(horaactual);
 
     }
     private Boolean unregisterToBackend() {
-        Log.i("unreg", "desregistering device (regId = " + regid + ")"+numprofesor+dni+regid);
         Boolean res=ServerUtilities.register(context, numprofesor, dni, regid,"baja");
-        Log.i("desreg", "fin de sendregtobackend"+res.toString());
 
         return res;
     }

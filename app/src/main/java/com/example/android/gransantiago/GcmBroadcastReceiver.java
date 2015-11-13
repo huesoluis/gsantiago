@@ -22,7 +22,7 @@ public class GcmBroadcastReceiver extends WakefulBroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Log.i("gcm", "Workko... " + (1) + "/5 @ " + SystemClock.elapsedRealtime());
+
 
         // Explicitly specify that GcmIntentService will handle the intent.
         ComponentName comp = new ComponentName(context.getPackageName(),

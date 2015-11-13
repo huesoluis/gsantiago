@@ -38,7 +38,6 @@ public class GcmIntentService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        Log.i(TAG, "Handling... " + (1) + "/5 @ " + SystemClock.elapsedRealtime());
         String notificacion;
         Bundle extras = intent.getExtras();
         GoogleCloudMessaging gcm = GoogleCloudMessaging.getInstance(this);
@@ -71,11 +70,8 @@ public class GcmIntentService extends IntentService {
                             "\nProfesor falta:\t"+extras.getString("pfalta","nadie")+"\nAsignatura:\t"+extras.getString("asignatura","ninguna");
 
 
-      //          notificacion="notificacion recibida";
-                // Post notification of received message.
                 sendNotification(notificacion,guardia);
 
-                Log.i(TAG, "Recibido: " + extras.toString() + extras.getString("Cubres") + extras.getString("Aula"));
             }
         }
         // Release the wake lock provided by the WakefulBroadcastReceiver.
@@ -96,7 +92,6 @@ public class GcmIntentService extends IntentService {
         } else {
             Intent i = new Intent(this, Aviso.class);
             i.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            //i.putExtra(msg, "No hay mensaje");
             Log.i(TAG, "mensaje:"+msg);
 
         i.putExtra("mensaje",msg);

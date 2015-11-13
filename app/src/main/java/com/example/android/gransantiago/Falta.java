@@ -1,5 +1,7 @@
 package com.example.android.gransantiago;
-
+/**
+ Clase q representa una guardia o falta de un profesor
+ * */
 public class Falta
 {
 	private String pfalta;

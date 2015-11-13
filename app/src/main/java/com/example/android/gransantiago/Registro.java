@@ -2,6 +2,7 @@ package com.example.android.gransantiago;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -10,7 +11,9 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -29,7 +32,7 @@ import static com.example.android.gransantiago.ServerUtilities.REGISTER_URL;
 //import static com.example.android.gransantiago.AlertDialogManager;
 
 
-public class Registro extends Activity {
+public class Registro extends FragmentActivity {
 
     public static final String EXTRA_MESSAGE = "message";
     public static final String PROPERTY_REGID = "regid";
@@ -43,7 +46,7 @@ public class Registro extends Activity {
      * from the API Console, as described in "Getting Started."
      */
      String regid,numprofesor,dni,SENDER_ID = "880980506015";
-
+       Context con;
     /**
      * Tag used on log messages.
      */
@@ -62,8 +65,6 @@ public class Registro extends Activity {
     // Register button
     Button btnRegister;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,7 +72,7 @@ public class Registro extends Activity {
         //mDisplay = (TextView) findViewById(R.id.display);
         Log.i(TAG, "oncreate");
         context = getApplicationContext();
-
+        con=this.getWindow().getContext();
         // Check device for Play Services APK. If check succeeds, proceed with GCM registration.
         if (checkPlayServices()) {
             gcm = GoogleCloudMessaging.getInstance(this);
@@ -117,7 +118,7 @@ public class Registro extends Activity {
             public void onClick(View arg0) {
                 dni = txtDni.getText().toString();
                 numprofesor= txtNp.getText().toString();
-                Log.i(TAG, "before comp");
+
                 // Comprobamos si se ha rellenado el formulario correctamente
                 if(dni.trim().length() !=8 && numprofesor.trim().equals("")){
                     Toast.makeText(getApplicationContext(), "dni o número de profesor incorrecto, vuelve a intentarlo", Toast.LENGTH_SHORT).show();
@@ -128,7 +129,7 @@ public class Registro extends Activity {
                 if (regid.isEmpty()) {
                      Toast.makeText(getApplicationContext(), "Iniciando registro...", Toast.LENGTH_SHORT).show();
                      RegistroTask tarea = new RegistroTask();
-                     tarea.execute();
+                     tarea.execute(Registro.this);
                     }else{
                     Toast.makeText(getApplicationContext(), "Ya estas registrado", Toast.LENGTH_LONG).show();
                              }
@@ -206,33 +207,18 @@ public class Registro extends Activity {
     }
 
     //Tarea que realiza el registro en segundo plano
-    private class RegistroTask extends AsyncTask<Void,Integer,Boolean> {
-        Builder alertDialogBuilder;
-        AlertDialog alertDialog;
+    private class RegistroTask extends AsyncTask<Activity,Integer,Boolean> {
+
+        Boolean res;
+
+
+
         public RegistroTask(){
-            this.alertDialogBuilder = new Builder(Registro.this);
 
-            // set title
-            this.alertDialogBuilder.setTitle("Registro");
-
-            // set dialog message
-            this.alertDialogBuilder
-                    .setMessage("Ha sido imposible realizar el registro, consulta al administrador o revisa tu conexión\nzizeog@gmail.com")
-                    .setCancelable(false)
-                    .setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                            // if this button is clicked, close
-                            // current activity
-                            Registro.this.finish();
-                        }
-                    });
-
-            this.alertDialog = alertDialogBuilder.create();
 
         }
 
-        Boolean res;
-        protected Boolean doInBackground(Void... params) {
+        protected Boolean doInBackground(Activity... params) {
             try {
             //gcm.unregister();
                 //registrando en google gcm
@@ -246,29 +232,27 @@ public class Registro extends Activity {
           res=sendRegistrationIdToBackend();
             //registrando en preferencias
             Log.i(TAG, "resultado registro en iserver:"+res);
+            Log.i("registronp", numprofesor);
 
             if(res) storeRegistrationId(context, regid, dni,numprofesor);
 
-            return true;
+            return res;
         }
 
 
         protected void onPostExecute(Boolean result) {
-             //Intent intent = new Intent("com.google.android.c2dm.intent.RECEIVE",null);
 
             if(!result) {
-                Toast.makeText(getApplicationContext(), "Ha sido imposible realizar el registro, consulta al administrador o revisa tu conexión\n" +
-                        "zizeog@gmail.com", Toast.LENGTH_LONG).show();
+                Toast t=new Toast(getApplicationContext());
+                t.setGravity(Gravity.CENTER_VERTICAL,0,0);
+                t.makeText(getApplicationContext(), "Ha sido imposible realizar el registro\n Consulta al administrador en zizeog@gmail.com" +
+                        "o revisa tu conexión\n", Toast.LENGTH_LONG).show();
             }
             else {
-                Toast.makeText(getApplicationContext(), "Registro completado con éxito!", Toast.LENGTH_SHORT).show();
-
-
-              //  alertDialog.show();
 
                 setResult(RESULT_OK);
+                Toast.makeText(getApplicationContext(), "Registro completado con éxito!", Toast.LENGTH_SHORT).show();
             }
-           // finish();
         }
     }
 
@@ -291,6 +275,7 @@ public class Registro extends Activity {
         final SharedPreferences prefs = getGCMPreferences(context);
         int appVersion = getAppVersion(context);
         Log.i(TAG, "Guardando datos en la version " + appVersion);
+        Log.i("registronp",numprofesor);
         SharedPreferences.Editor editor = prefs.edit();
         editor.putString(PROPERTY_REGID, regid);
         editor.putString(PROPERTY_DNI, dni);
@@ -300,7 +285,7 @@ public class Registro extends Activity {
     }
 
     private void regdialog() {
-        Builder alertDialogBuilder = new Builder(Registro.this);
+        Builder alertDialogBuilder = new Builder(getApplicationContext());
 
             // set title
             alertDialogBuilder.setTitle("Registro");
